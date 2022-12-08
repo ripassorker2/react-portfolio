@@ -36,14 +36,15 @@ const Navbar = () => {
               Projects
             </a>
           </li>
+
           <li>
             <a
               href="/"
-              aria-label="Product pricing"
-              title="Product pricing"
-              class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+              aria-label="About us"
+              title="About us"
+              class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-deep-purple-accent-400"
             >
-              Pricing
+              Contact
             </a>
           </li>
           <li>
@@ -51,9 +52,9 @@ const Navbar = () => {
               href="/"
               aria-label="About us"
               title="About us"
-              class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+              class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-deep-purple-accent-400"
             >
-              About us
+              About
             </a>
           </li>
         </ul>
