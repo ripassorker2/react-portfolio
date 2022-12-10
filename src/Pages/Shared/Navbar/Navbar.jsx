@@ -1,9 +1,13 @@
 import React, { useState } from "react";
+import resume from "../../../assets/resume.pdf";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
-    <div class="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full  md:px-24 lg:px-8  shadow-2xl  text-white">
+    <div
+      class="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full sticky  md:px-8  shadow-2xl  text-white"
+      id="home"
+    >
       <div class="relative flex items-center justify-between">
         <a
           href="/"
@@ -11,14 +15,15 @@ const Navbar = () => {
           title="Company"
           class="inline-flex items-center"
         >
-          <span class="ml-2 text-xl font-bold tracking-wide text-gray-100 uppercase">
-            Ripas Sorker Rifat
+          <span class="ml-2 text-xl font-serif font-bold tracking-wide text-gray-100 uppercase">
+            <span className="text-rose-600 py-1"> Ripas </span> Sorker{" "}
+            <span className="text-rose-600 py-1">Rifat </span>
           </span>
         </a>
-        <ul class="md:flex items-center hidden space-x-8 lg:flex">
+        <ul class="lg:flex items-center hidden space-x-8">
           <li>
             <a
-              href="/"
+              href="#home"
               class="font-medium tracking-wide text-gray-00 transition-colors duration-200 hover:text-deep-purple-accent-400"
             >
               Home
@@ -26,7 +31,15 @@ const Navbar = () => {
           </li>
           <li>
             <a
-              href="/"
+              href="#skill"
+              class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-deep-purple-accent-400"
+            >
+              Skills
+            </a>
+          </li>
+          <li>
+            <a
+              href="#project"
               class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-deep-purple-accent-400"
             >
               Projects
@@ -43,10 +56,19 @@ const Navbar = () => {
           </li>
           <li>
             <a
-              href=""
+              href="#about"
               class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-deep-purple-accent-400"
             >
               About
+            </a>
+          </li>
+          <li>
+            <a
+              href={resume}
+              download
+              className="block w-full rounded bg-rose-600  px-4 py-2 font-medium text-white shadow hover:bg-rose-700 focus:outline-none focus:ring active:bg-rose-500 sm:w-auto"
+            >
+              Get Resume
             </a>
           </li>
         </ul>
@@ -57,7 +79,7 @@ const Navbar = () => {
             class="p-2 -mr-1 transition duration-200 rounded focus:outline-none focus:shadow-outline hover:bg-deep-purple-50 focus:bg-deep-purple-50"
             onClick={() => setIsMenuOpen(true)}
           >
-            <svg class="w-5 text-gray-600" viewBox="0 0 24 24">
+            <svg class="w-6 text-gray-100 text-2xl" viewBox="0 0 24 24">
               <path
                 fill="currentColor"
                 d="M23,13H1c-0.6,0-1-0.4-1-1s0.4-1,1-1h22c0.6,0,1,0.4,1,1S23.6,13,23,13z"
@@ -74,7 +96,7 @@ const Navbar = () => {
           </button>
           {isMenuOpen && (
             <div class="absolute top-0 left-0 w-full">
-              <div class="p-5 bg-white border rounded shadow-sm">
+              <div class="p-5  border bg-gray-900 rounded shadow-sm">
                 <div class="flex items-center justify-between mb-4">
                   <div>
                     <a
@@ -83,8 +105,10 @@ const Navbar = () => {
                       title="Company"
                       class="inline-flex items-center"
                     >
-                      <span class="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">
-                        Company
+                      <span class="ml-2 text-xl font-serif font-bold tracking-wide text-gray-100 uppercase">
+                        <span className="text-rose-600 py-1"> Ripas </span>{" "}
+                        Sorker{" "}
+                        <span className="text-rose-600 py-1">Rifat </span>
                       </span>
                     </a>
                   </div>
@@ -108,42 +132,52 @@ const Navbar = () => {
                   <ul class="space-y-4">
                     <li>
                       <a
-                        href="/"
-                        aria-label="Our product"
-                        title="Our product"
-                        class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                        href="#home"
+                        class="font-medium tracking-wide text-gray-00 transition-colors duration-200 hover:text-deep-purple-accent-400"
                       >
-                        Product
+                        Home
                       </a>
                     </li>
                     <li>
                       <a
-                        href="/"
-                        aria-label="Our product"
-                        title="Our product"
-                        class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                        href="#skill"
+                        class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-deep-purple-accent-400"
                       >
-                        Features
+                        Skills
                       </a>
                     </li>
                     <li>
                       <a
-                        href="/"
-                        aria-label="Product pricing"
-                        title="Product pricing"
-                        class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                        href="#project"
+                        class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-deep-purple-accent-400"
                       >
-                        Pricing
+                        Projects
+                      </a>
+                    </li>
+
+                    <li>
+                      <a
+                        href="#contact"
+                        class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                      >
+                        Contact
                       </a>
                     </li>
                     <li>
                       <a
-                        href="/"
-                        aria-label="About us"
-                        title="About us"
-                        class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                        href="#about"
+                        class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-deep-purple-accent-400"
                       >
-                        About us
+                        About
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href={resume}
+                        download
+                        className="block w-full rounded bg-rose-600  px-4 py-2 font-medium text-white shadow hover:bg-rose-700 focus:outline-none focus:ring active:bg-rose-500 sm:w-auto"
+                      >
+                        Get Resume
                       </a>
                     </li>
                   </ul>

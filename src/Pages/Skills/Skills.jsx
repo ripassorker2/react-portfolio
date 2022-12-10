@@ -20,7 +20,7 @@ const Skills = () => {
   }
 
   return (
-    <div>
+    <div id="skill">
       <h3 className="md:text-5xl font-bold mb-12 text-3xl text-center text-rose-600">
         My Skills{" "}
       </h3>

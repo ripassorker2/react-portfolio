@@ -4,7 +4,7 @@ import resume from "../../assets/resume.pdf";
 
 const About = () => {
   return (
-    <section className="dark:bg-gray-800 text-gray-100">
+    <section className="dark:bg-gray-800 text-gray-100" id="about">
       <h1 className="md:text-5xl mt-9 text-3xl text-rose-600 font-bold text-center">
         About Me
       </h1>
@@ -18,13 +18,13 @@ const About = () => {
         </div>
         <div className=" p-6 rounded-sm ">
           <p className="mt-6 mb-5 text-lg ">
-            Hi, I am Md Ripas Ali. I am twenty years old. I am doing my Bachelor
-            in Dhaka International University right now and I specialize in Web
-            Designing and Development. I am working as a full-stack developer
-            for the past years, and I have extensive experience with both
-            front-end and back-end development. I have a deep interest in Web
-            Development and I made some full-stack projects using React, Node,
-            Express, and MongoDB.
+            Hello! I am Md Ripas Sorker Rifat. I am twenty years old. I am doing
+            my Bachelor in Dhaka International University right now and I
+            specialize in Web Designing and Development. I am working as a
+            full-stack developer for the past years, and I have extensive
+            experience with both front-end and back-end development. I have a
+            deep interest in Web Development and I made some full-stack projects
+            using React, Node, Express, and MongoDB.
           </p>
           <div className="flex flex-col space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start">
             <div className="flex flex-col space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start">

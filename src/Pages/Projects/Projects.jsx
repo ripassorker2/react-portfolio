@@ -20,7 +20,7 @@ const Projects = () => {
   }
 
   return (
-    <div className="py-12">
+    <div className="py-12" id="project">
       <h3 className="md:text-5xl  font-bold mb-9 text-3xl text-center text-rose-600">
         My Projects{" "}
       </h3>

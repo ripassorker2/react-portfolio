@@ -14,13 +14,13 @@ const Contact = () => {
         </h1>
         <div className="relative overflow-hidden bg-no-repeat bg-cover"></div>
         <div className="container text-gray-800  ">
-          <div className="block rounded-lg shadow-lg ">
+          <div className="block rounded-lg shadow-xl pb-3 ">
             <div className="md:flex flex-wrap">
               <div className="grow-0 shrink-0 basis-auto w-full xl:w-5/12  mb-12 xl:mb-0">
                 <h1 className="text-xl font-semibold mb-3 text-white">
                   If you have any queries, Please ask me?
                 </h1>
-                <form className="border rounded-xl shadow-2xl border-gray-900">
+                <form className="border rounded-xl border-gray-900">
                   <div className="form-group mb-6">
                     <input
                       type="text"
