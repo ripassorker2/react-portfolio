@@ -16,7 +16,7 @@ const SkillCard = ({ skill }) => {
         <h1 className="font-dmserif text-3xl font-bold text-white">
           {skill?.name}
         </h1>
-        <h4 className="font-dmserif text-xl  text-white">{skill?.lavel}</h4>
+        <h4 className="font-dmserif text-xl  text-rose-100">{skill?.lavel}</h4>
       </div>
     </div>
   );

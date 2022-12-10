@@ -48,5 +48,10 @@
     "picture": "https://firebase.google.com/images/social.png",
     "name": "Firebase",
     "lavel": "Expart"
+  },
+  {
+    "picture": "https://miro.medium.com/max/800/1*ulCspc56K_swYE1uuel_TA.png",
+    "name": "JWT",
+    "lavel": "Expart"
   }
 ]
