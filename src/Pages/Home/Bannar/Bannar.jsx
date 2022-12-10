@@ -1,4 +1,5 @@
 import React from "react";
+import resume from "../../../assets/resume.pdf";
 
 const Bannar = () => {
   return (
@@ -18,10 +19,11 @@ const Bannar = () => {
               Ripas <span className="text-rose-600 py-1">Sorker </span>
               <span className="text-rose-600 py-1">Rifat</span>
             </h1>
-            <p className="my-3 mb-8 text-2xl ">MERN Stack Developer.</p>
+            <p className="my-3 mb-8 text-2xl "> I am MERN Stack Developer.</p>
             <div className="flex flex-col space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start">
               <a
-                href="/"
+                href={resume}
+                download
                 className="block w-full rounded bg-rose-600 px-12 py-3 text-b font-medium text-white shadow hover:bg-rose-700 focus:outline-none focus:ring active:bg-rose-500 sm:w-auto"
               >
                 Get Resume

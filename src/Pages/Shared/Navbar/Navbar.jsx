@@ -15,12 +15,10 @@ const Navbar = () => {
             Ripas Sorker Rifat
           </span>
         </a>
-        <ul class="flex items-center hidden space-x-8 lg:flex">
+        <ul class="md:flex items-center hidden space-x-8 lg:flex">
           <li>
             <a
               href="/"
-              aria-label="Our product"
-              title="Our product"
               class="font-medium tracking-wide text-gray-00 transition-colors duration-200 hover:text-deep-purple-accent-400"
             >
               Home
@@ -29,8 +27,6 @@ const Navbar = () => {
           <li>
             <a
               href="/"
-              aria-label="Our product"
-              title="Our product"
               class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-deep-purple-accent-400"
             >
               Projects
@@ -39,9 +35,7 @@ const Navbar = () => {
 
           <li>
             <a
-              href="/"
-              aria-label="About us"
-              title="About us"
+              href="#contact"
               class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-deep-purple-accent-400"
             >
               Contact
@@ -49,9 +43,7 @@ const Navbar = () => {
           </li>
           <li>
             <a
-              href="/"
-              aria-label="About us"
-              title="About us"
+              href=""
               class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-deep-purple-accent-400"
             >
               About
