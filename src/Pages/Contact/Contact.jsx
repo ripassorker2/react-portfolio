@@ -1,8 +1,32 @@
-import React from "react";
+import React, { useRef } from "react";
+import emailjs from "@emailjs/browser";
 import { MdEmail, MdLocationOn } from "react-icons/md";
 import { BsLinkedin, BsTelephoneFill } from "react-icons/bs";
 
 const Contact = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_se7rivo",
+        "template_b941elg",
+        form.current,
+        "udGj2_-JvXBkCXsxX"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          e.target.reset();
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
+
   return (
     <div>
       <section
@@ -20,10 +44,15 @@ const Contact = () => {
                 <h1 className="text-xl font-semibold mb-3 text-white">
                   If you have any queries, Please ask me?
                 </h1>
-                <form className="border rounded-xl border-gray-900">
+                <form
+                  ref={form}
+                  onSubmit={sendEmail}
+                  className="border rounded-xl border-gray-900"
+                >
                   <div className="form-group mb-6">
                     <input
                       type="text"
+                      name="user_name"
                       className="form-control block w-full px-3 py-2 text-base font-normal bg-gray-900 bg-clip-padding border border-solid border-gray-800 rounded transition ease-in-out m-0 text-gray-200 focus:bg-gray-900 focus:border-rose-600  focus:outline-none"
                       placeholder="Name"
                     />
@@ -31,12 +60,14 @@ const Contact = () => {
                   <div className="form-group mb-6">
                     <input
                       type="email"
+                      name="user_email"
                       className="form-control block w-full px-3 py-2 text-base font-normal bg-gray-900 bg-clip-padding border border-solid border-gray-800 rounded transition ease-in-out m-0 text-gray-200 focus:bg-gray-900 focus:border-rose-600  focus:outline-none"
                       placeholder="Email address"
                     />
                   </div>
                   <div className="form-group mb-6">
                     <textarea
+                      name="message"
                       className="
                       form-control block w-full px-3 py-1.5 text-base font-normal bg-gray-900 bg-clip-padding border border-solid border-gray-800 rounded transition ease-in-out m-0 text-gray-200 focus:bg-gray-900 focus:border-rose-600  focus:outline-none"
                       rows="3"
@@ -63,7 +94,7 @@ const Contact = () => {
                         </div>
                       </div>
                       <div className="grow ml-6">
-                        <p className="font-bold text-gray-50 mb-1">Emial</p>
+                        <p className="font-bold text-gray-50 mb-1">Email</p>
                         <p className="text-gray-100">
                           ripassorkerrifat@gmail.com
                         </p>
@@ -82,7 +113,7 @@ const Contact = () => {
                         <a
                           href="https://www.linkedin.com/in/ripas-sorkar-rifat-b42a01257/"
                           target={"_blank"}
-                          className="text-gray-200"
+                          className="text-gray-200 w-full"
                         >
                           https://www.linkedin.com/in/ripas-sorkar-rifat-b42a01257/
                         </a>

@@ -1,24 +1,23 @@
 import React from "react";
-import { BsWhatsapp } from "react-icons/bs";
 
 const Footer = () => {
   return (
     <>
-      <footer class="text-center bg-gray-900 text-white py-10 px-5">
-        <div class="container px-6 pt-6 md:flex flex-col justify-between items-center align-middle">
-          <div class="flex justify-center mb-4">
+      <footer className="text-center bg-gray-900 text-gray-200 py-10 px-5">
+        <div className="container px-6 pt-6 md:flex flex-col justify-between items-center align-middle">
+          <div className="flex justify-center mb-4">
             <a
               href="https://web.facebook.com/ripassarker.rifat/"
               type="button"
               target=" _blank"
-              class="rounded-full hover:bg-rose-600 bg-transparent border-2 border-white text-white leading-normal uppercase  focus:outline-none focus:ring-0 transition duration-300 ease-in-out w-9 h-9 m-1"
+              className="rounded-full hover:bg-rose-600 bg-transparent border-2 border-white text-white leading-normal uppercase  focus:outline-none focus:ring-0 transition duration-300 ease-in-out w-9 h-9 m-1"
             >
               <svg
                 aria-hidden="true"
                 focusable="false"
                 data-prefix="fab"
                 data-icon="facebook-f"
-                class="w-2 h-full mx-auto "
+                className="w-2 h-full mx-auto "
                 role="img"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 320 512"
@@ -33,7 +32,7 @@ const Footer = () => {
             <a
               href="#!"
               type="button"
-              class="rounded-full flex justify-center items-center border-2 border-white text-white leading-normal uppercase hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1"
+              className="rounded-full flex justify-center items-center border-2 border-white text-white leading-normal uppercase hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1"
             >
               <BsWhatsapp />
               <svg
@@ -41,7 +40,7 @@ const Footer = () => {
                 focusable="false"
                 data-prefix="fab"
                 data-icon="twitter"
-                class="w-3 h-full mx-auto"
+                className="w-3 h-full mx-auto"
                 role="img"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 512 512"
@@ -57,14 +56,14 @@ const Footer = () => {
               href="https://myaccount.google.com/?hl=en_GB&utm_source=OGB&utm_medium=act"
               target="_blank"
               type="button"
-              class="rounded-full hover:bg-rose-600 bg-transparent  border-2 border-white text-white leading-normal uppercase  focus:outline-none focus:ring-0 transition duration-300 ease-in-out w-9 h-9 m-1"
+              className="rounded-full hover:bg-rose-600 bg-transparent  border-2 border-white text-white leading-normal uppercase  focus:outline-none focus:ring-0 transition duration-300 ease-in-out w-9 h-9 m-1"
             >
               <svg
                 aria-hidden="true"
                 focusable="false"
                 data-prefix="fab"
                 data-icon="google"
-                class="w-3 h-full mx-auto"
+                className="w-3 h-full mx-auto"
                 role="img"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 488 512"
@@ -79,14 +78,14 @@ const Footer = () => {
             {/* <a
               href="#!"
               type="button"
-              class="rounded-full border-2 border-white text-white leading-normal uppercase hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1"
+              className="rounded-full border-2 border-white text-white leading-normal uppercase hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1"
             >
               <svg
                 aria-hidden="true"
                 focusable="false"
                 data-prefix="fab"
                 data-icon="instagram"
-                class="w-3 h-full mx-auto"
+                className="w-3 h-full mx-auto"
                 role="img"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 448 512"
@@ -102,14 +101,14 @@ const Footer = () => {
               href="https://www.linkedin.com/in/ripas-sorkar-rifat-b42a01257/"
               target="_blank"
               type="button"
-              class="rounded-full hover:bg-rose-600 bg-transparent border-2 border-white text-white leading-normal uppercase  focus:outline-none focus:ring-0 transition duration-300 ease-in-out w-9 h-9 m-1"
+              className="rounded-full hover:bg-rose-600 bg-transparent border-2 border-white text-white leading-normal uppercase  focus:outline-none focus:ring-0 transition duration-300 ease-in-out w-9 h-9 m-1"
             >
               <svg
                 aria-hidden="true"
                 focusable="false"
                 data-prefix="fab"
                 data-icon="linkedin-in"
-                class="w-3 h-full mx-auto"
+                className="w-3 h-full mx-auto"
                 role="img"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 448 512"
@@ -125,14 +124,14 @@ const Footer = () => {
               href="https://github.com/ripassorker2"
               target={"_blank"}
               type="button"
-              class="rounded-full   border-2 hover:bg-rose-600 bg-transparent border-white text-white leading-normal uppercase  focus:outline-none focus:ring-0 transition duration-300 ease-in-out w-9 h-9 m-1"
+              className="rounded-full   border-2 hover:bg-rose-600 bg-transparent border-white text-white leading-normal uppercase  focus:outline-none focus:ring-0 transition duration-300 ease-in-out w-9 h-9 m-1"
             >
               <svg
                 aria-hidden="true"
                 focusable="false"
                 data-prefix="fab"
                 data-icon="github"
-                class="w-3 h-full mx-auto"
+                className="w-3 h-full mx-auto"
                 role="img"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 496 512"
@@ -144,7 +143,7 @@ const Footer = () => {
               </svg>
             </a>
           </div>
-          <div class="text-center px-4 text-white">
+          <div className="text-center px-4 text-white">
             2023 Copyright||All rights reserved. Created by me.
           </div>
         </div>

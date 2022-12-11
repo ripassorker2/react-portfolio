@@ -1,9 +1,8 @@
 import React from "react";
 
 const SkillCard = ({ skill }) => {
-  console.log(skill);
   return (
-    <div className="group relative   rounded-xl cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
+    <div className="group relative   rounded-xl cursor-pointer items-center justify-center overflow-hidden transition-shadow duration-300 hover:shadow-rose-600 hover:shadow-md">
       <div className="h-28">
         <img
           className="h-full w-full bg-cover  transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125"

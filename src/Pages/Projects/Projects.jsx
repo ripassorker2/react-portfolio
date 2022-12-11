@@ -7,7 +7,7 @@ const Projects = () => {
 
   useEffect(() => {
     setLoading(true);
-    fetch("projects.json")
+    fetch("https://portfoliyo-server.vercel.app/projects")
       .then((res) => res.json())
       .then((data) => {
         setProjects(data);

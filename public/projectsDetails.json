@@ -1,0 +1,80 @@
+[
+  {
+    "picture1": "https://i.ibb.co/WzfxcwT/laptop1.png",
+    "picture2": "https://i.ibb.co/wC3b4GS/laptop2.png",
+    "picture3": "https://i.ibb.co/Sm2b3jS/laptop3.png",
+    "picture4": "https://i.ibb.co/DQ3hqhj/laptop4.png",
+    "name": "Used Laptop Resele",
+    "live": "https://resale-laptop.web.app/",
+    "server": "https://github.com/ripassorker2/used-laptop-resell",
+    "client": "https://github.com/ripassorker2/used-laptop-resell-server",
+    "techonology": "React, React Router, Express.js, Node.js, MongoDB, Firebase, Tailwind CSS,Authentication, Vercel, React-photo-view, Stripe, Axios, React Query.",
+    "description": [
+      {
+        "point": "In this website, I created an admin role, seller role, and buyer role."
+      },
+      {
+        "point": "A seller can post a product and a buyer can buy a product."
+      },
+      {
+        "point": "Admin can see all buyers and products, and also can delete buyers or sellers.."
+      },
+      {
+        "point": "On this website I also created an advertisement system, A seller can advertise his products."
+      },
+      {
+        "point": "And I also implement a payment method using stripe."
+      }
+    ]
+  },
+  {
+    "picture1": "https://i.ibb.co/YZ9xmKQ/tourist1.png",
+    "picture2": "https://i.ibb.co/0GJGCJQ/tourist2.png",
+    "picture3": "https://i.ibb.co/Byg9z83/tourisr3.png",
+    "picture4": "https://i.ibb.co/Vmv3zHX/rourist4.png",
+    "name": "Tourist service",
+    "live": "https://service-review-assigment.web.app/",
+    "server": "https://github.com/ripassorker2/tourist-service",
+    "client": "https://github.com/ripassorker2/tourist-service-server",
+    "techonology": "React, React Router, Express.js, Daisy UI, Node.js, MongoDB, Firebase, Tailwind CSS,Authentication, Tailwind CSS, React-photo-view, Vercel.",
+    "description": [
+      {
+        "point": "On this website, a user can give his review."
+      },
+      {
+        "point": "To create a review a user first signs in to this site."
+      },
+      {
+        "point": "Here a user sees their review and another user's review."
+      },
+      {
+        "point": "Users can update, create and delete their reviews."
+      },
+      {
+        "point": "Here a user can post a service but first sign in this website,"
+      }
+    ]
+  },
+  {
+    "picture1": "https://i.ibb.co/kS9nNbd/teach1.png",
+    "picture2": "https://i.ibb.co/xXVBHnG/teach2.png",
+    "picture3": "https://i.ibb.co/0nWLSBs/teach3.png",
+    "picture4": "https://i.ibb.co/1MttBWr/teach4.png",
+    "name": "Online Teach",
+    "live": "https://online-teach-83288.web.app/",
+    "server": "https://github.com/ripassorker2/online-teach",
+    "client": "https://github.com/ripassorker2/online-teact-server",
+    "techonology": "",
+    "description": [
+      {
+        "point": "This website has some courses.."
+      },
+      {
+        "point": "Courses see all users but buy for the courses a user signs in first."
+      },
+      {
+        "point": "Here I implement a pdf creator When the download pdf button is clicked the page pdf id starts download."
+      }
+    ]
+  }
+]
