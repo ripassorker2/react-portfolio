@@ -40,7 +40,10 @@ const Contact = () => {
         <div className="container text-gray-800  ">
           <div className="block rounded-lg shadow-xl pb-3 ">
             <div className="md:flex flex-wrap">
-              <div className="grow-0 shrink-0 basis-auto w-full xl:w-5/12  mb-12 xl:mb-0">
+              <div
+                data-aos="fade-right"
+                className="grow-0 shrink-0 basis-auto w-full xl:w-5/12  mb-12 xl:mb-0"
+              >
                 <h1 className="text-xl font-semibold mb-3 text-white">
                   If you have any queries, Please ask me?
                 </h1>
@@ -84,7 +87,10 @@ const Contact = () => {
                   </button>
                 </form>
               </div>
-              <div className="grow-0 shrink-0 basis-auto w-full xl:w-7/12">
+              <div
+                data-aos="fade-left"
+                className="grow-0 shrink-0 basis-auto w-full xl:w-7/12"
+              >
                 <div className="flex flex-wrap">
                   <div className="mb-12 grow-0 shrink-0 basis-auto w-full md:w-6/12 px-3 lg:px-6">
                     <div className="flex items-start">
@@ -95,9 +101,25 @@ const Contact = () => {
                       </div>
                       <div className="grow ml-6">
                         <p className="font-bold text-gray-50 mb-1">Email</p>
-                        <p className="text-gray-100">
+                        <p className="text-gray-100 flex-wrap overflow-hidden">
                           ripassorkerrifat@gmail.com
                         </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="mb-12 md:mb-0 grow-0 shrink-0 basis-auto w-full md:w-6/12 px-3 lg:px-6">
+                    <div className="flex align-start">
+                      <div className="shrink-0">
+                        <div className="p-4 bg-rose-600 hover:bg-rose-700 duration-300 rounded-md shadow-md w-14 h-14 flex items-center justify-center">
+                          <BsTelephoneFill className="text-white text-5xl hover:scale-x-125 duration-300" />
+                        </div>
+                      </div>
+                      <div className="grow ml-6">
+                        <p className="font-bold text-gray-50 mb-1">
+                          Phone Number
+                        </p>
+                        <p className="text-gray-100">+880 1744876681</p>
                       </div>
                     </div>
                   </div>
@@ -115,23 +137,8 @@ const Contact = () => {
                           target={"_blank"}
                           className="text-gray-200 w-full"
                         >
-                          https://www.linkedin.com/in/ripas-sorkar-rifat-b42a01257/
+                          Linkedin profile
                         </a>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="mb-12 md:mb-0 grow-0 shrink-0 basis-auto w-full md:w-6/12 px-3 lg:px-6">
-                    <div className="flex align-start">
-                      <div className="shrink-0">
-                        <div className="p-4 bg-rose-600 hover:bg-rose-700 duration-300 rounded-md shadow-md w-14 h-14 flex items-center justify-center">
-                          <BsTelephoneFill className="text-white text-5xl hover:scale-x-125 duration-300" />
-                        </div>
-                      </div>
-                      <div className="grow ml-6">
-                        <p className="font-bold text-gray-50 mb-1">
-                          Phone Number
-                        </p>
-                        <p className="text-gray-100">+880 1744876681</p>
                       </div>
                     </div>
                   </div>

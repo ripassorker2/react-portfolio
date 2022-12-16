@@ -64,16 +64,22 @@
     "live": "https://online-teach-83288.web.app/",
     "server": "https://github.com/ripassorker2/online-teach",
     "client": "https://github.com/ripassorker2/online-teact-server",
-    "techonology": "",
+    "techonology": "React, React Router,Daisy UI, Firebase, Tailwind CSS,Authentication, Tailwind CSS, React to pdf, Vercel.",
     "description": [
       {
-        "point": "This website has some courses.."
+        "point": "This website has some courses."
+      },
+      {
+        "point": "Here I implement firebase authentication system"
       },
       {
         "point": "Courses see all users but buy for the courses a user signs in first."
       },
       {
-        "point": "Here I implement a pdf creator When the download pdf button is clicked the page pdf id starts download."
+        "point": "Here I implement a pdf creator. "
+      },
+      {
+        "point": "When the download pdf button is clicked the page pdf id starts download."
       }
     ]
   }

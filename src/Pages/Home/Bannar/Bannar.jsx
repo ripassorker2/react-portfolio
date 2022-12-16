@@ -1,32 +1,50 @@
 import React from "react";
 import resume from "../../../assets/resume.pdf";
+import coding from "../../../assets/coding.json";
 import Typewriter from "typewriter-effect";
+import Lottie from "lottie-react";
 
 const Bannar = () => {
   return (
-    <div className="text-white">
-      <section className="dark:bg-gray-800 dark:text-gray-100">
+    <div className="text-white z-10">
+      <section className="bg-gray-900 ">
         <div className="container flex flex-col justify-center p-6 mx-auto sm:py-12 lg:py-24 lg:flex-row lg:justify-between">
-          <div className="flex items-center justify-center p-6 mt-8 lg:mt-0 h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128">
-            <img
+          <div
+            data-aos="fade-left"
+            className="flex items-center md:ml-16 justify-center p-6 mt-8 lg:mt-0 h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128"
+          >
+            {/* <img
               src="https://www.thesoftlets.com/wp-content/uploads/2022/07/mern-stack-dev.jpg"
               alt=""
               className="object-contain rounded-lg h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128"
+            /> */}
+            <Lottie
+              className="object-contain rounded-lg  md:w-[500px]"
+              animationData={coding}
+              loop={true}
             />
           </div>
-          <div className="flex flex-col justify-center p-6 text-center rounded-sm lg:max-w-lg xl:max-w-lg lg:text-left">
-            <h1 className=" font-bold leading-none sm:text-5xl">
+          <div
+            data-aos="fade-right"
+            className="flex flex-col justify-center  text-center mt-16  rounded-sm lg:max-w-lg xl:max-w-lg lg:text-left"
+          >
+            <h1 className=" font-bold leading-none md:text-5xl text-3xl">
               <span className="text-rose-600 py-1"> Hello</span>! I am <br />
               Ripas <span className="text-rose-600 py-1">Sorker </span>
               <span className="text-rose-600 py-1">Rifat</span>
             </h1>
 
-            <p className="my-3 mb-8 text-2xl flex ">
+            <p className="my-3 mb-8 md:text-2xl text-xl md:justify-start justify-center flex ">
               I'm a{"  "}
-              <span className="text-rose-600 font-semibold">
+              <span className="text-green-500 font-semibold">
                 <Typewriter
                   options={{
-                    strings: ["_ MERN Stack Developer", `_ Frontend Developer`],
+                    strings: [
+                      "_ MERN Stack Developer",
+                      `_ Frontend Developer`,
+                      "_ Full Stack Developer",
+                      "_ Backend Developer",
+                    ],
                     autoStart: true,
                     loop: true,
                   }}

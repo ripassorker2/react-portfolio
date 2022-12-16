@@ -1,10 +1,17 @@
 import { RouterProvider } from "react-router-dom";
 import "./App.css";
 import { router } from "./Router/Router";
+import AOS from "aos";
+import "aos/dist/aos.css"; // You can also use <link> for styles
+import { useEffect } from "react";
+// ..
 
 function App() {
+  useEffect(() => {
+    AOS.init({ duration: 1000 });
+  }, []);
   return (
-    <div className="lg:max-w-screen-xl mx-auto">
+    <div className="max-w-[1440px] mx-auto overflow-hidden">
       <RouterProvider router={router}></RouterProvider>
     </div>
   );

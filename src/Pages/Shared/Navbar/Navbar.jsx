@@ -1,17 +1,17 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import resume from "../../../assets/resume.pdf";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
     <div
-      className="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full sticky  md:px-8  shadow-2xl  text-white"
+      className="px-4  py-5 mx-auto sm:max-w-xl md:max-w-full sticky  md:px-8  shadow-2xl  text-white"
       id="home"
     >
       <div className="relative flex items-center justify-between">
-        <a
-          href="/"
+        <Link
+          to="/"
           aria-label="Company"
           title="Company"
           className="inline-flex items-center"
@@ -20,48 +20,74 @@ const Navbar = () => {
             <span className="text-rose-600 py-1"> Ripas </span> Sorker{" "}
             <span className="text-rose-600 py-1">Rifat </span>
           </span>
-        </a>
+        </Link>
         <ul className="lg:flex items-center hidden space-x-8">
           <li>
-            <Link
+            <NavLink
               to="/home"
+              style={({ isActive }) => ({
+                color: isActive && "#f43f5e",
+              })}
               className="font-medium tracking-wide text-gray-00 transition-colors duration-200 hover:text-deep-purple-accent-400 hover:text-rose-600 "
             >
               Home
-            </Link>
+            </NavLink>
           </li>
           <li>
-            <a
-              href="#skill"
+            <NavLink
+              to="/skills"
+              style={({ isActive }) => ({
+                color: isActive && "#f43f5e",
+              })}
               className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-deep-purple-accent-400 hover:text-rose-600 "
             >
               Skills
-            </a>
+            </NavLink>
           </li>
           <li>
-            <a
-              href="#project"
+            <NavLink
+              to="/projects"
+              style={({ isActive }) => ({
+                color: isActive && "#f43f5e",
+              })}
               className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-deep-purple-accent-400 hover:text-rose-600 "
             >
               Projects
-            </a>
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              to="/blogs"
+              style={({ isActive }) => ({
+                color: isActive && "#f43f5e",
+              })}
+              className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-deep-purple-accent-400 hover:text-rose-600 "
+            >
+              Blogs
+            </NavLink>
           </li>
 
           <li>
-            <a
-              href="#contact"
+            <NavLink
+              to="/contact"
+              style={({ isActive }) => ({
+                color: isActive && "#f43f5e",
+              })}
               className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-deep-purple-accent-400 hover:text-rose-600 "
             >
               Contact
-            </a>
+            </NavLink>
           </li>
           <li>
-            <a
-              href="#about"
+            <NavLink
+              to="/about"
+              style={({ isActive }) => ({
+                color: isActive && "#f43f5e",
+              })}
               className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-deep-purple-accent-400 hover:text-rose-600 "
             >
               About
-            </a>
+            </NavLink>
           </li>
           <li>
             <a
@@ -96,7 +122,7 @@ const Navbar = () => {
             </svg>
           </button>
           {isMenuOpen && (
-            <div className="absolute top-0 left-0 w-full">
+            <div className="absolute top-0  z-[1000] left-0 w-full">
               <div className="p-5  border bg-gray-900 rounded shadow-sm">
                 <div className="flex items-center justify-between mb-4">
                   <div>
@@ -132,45 +158,60 @@ const Navbar = () => {
                 <nav>
                   <ul className="space-y-4">
                     <li>
-                      <a
-                        href="#home"
+                      <NavLink
+                        to="/home"
+                        style={({ isActive }) => ({
+                          color: isActive && "#f43f5e",
+                        })}
                         className="font-medium tracking-wide text-gray-00 transition-colors duration-200 hover:text-deep-purple-accent-400 hover:text-rose-600 "
                       >
                         Home
-                      </a>
+                      </NavLink>
                     </li>
                     <li>
-                      <a
-                        href="#skill"
+                      <NavLink
+                        to="/skills"
+                        style={({ isActive }) => ({
+                          color: isActive && "#f43f5e",
+                        })}
                         className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-deep-purple-accent-400 hover:text-rose-600 "
                       >
                         Skills
-                      </a>
+                      </NavLink>
                     </li>
                     <li>
-                      <a
-                        href="#project"
+                      <NavLink
+                        to="/projects"
+                        style={({ isActive }) => ({
+                          color: isActive && "#f43f5e",
+                        })}
                         className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-deep-purple-accent-400 hover:text-rose-600 "
                       >
                         Projects
-                      </a>
+                      </NavLink>
                     </li>
 
                     <li>
-                      <a
-                        href="#contact"
+                      <NavLink
+                        to="/contact"
+                        style={({ isActive }) => ({
+                          color: isActive && "#f43f5e",
+                        })}
                         className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-deep-purple-accent-400 hover:text-rose-600 "
                       >
                         Contact
-                      </a>
+                      </NavLink>
                     </li>
                     <li>
-                      <a
-                        href="#about"
-                        className=" font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-deep-purple-accent-400 hover:text-rose-600 "
+                      <NavLink
+                        to="/about"
+                        style={({ isActive }) => ({
+                          color: isActive && "#f43f5e",
+                        })}
+                        className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-deep-purple-accent-400 hover:text-rose-600 "
                       >
                         About
-                      </a>
+                      </NavLink>
                     </li>
                     <li>
                       <a

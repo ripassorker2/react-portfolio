@@ -8,23 +8,27 @@ const ProjectDetils = () => {
   return (
     <div>
       <div className="w-[80%] md:w-[92%] m-auto text-gray-100">
-        <div className="grid md:grid-cols-2 gap-10 ">
+        <div className="grid md:grid-cols-2 mt-10 gap-10 ">
           <img
+            data-aos="zoom-in-up"
             className="h-72 w-full rounded-xl duration-300 hover:shadow-rose-600 hover:shadow-lg"
             src={project?.picture1}
             alt=""
           />
           <img
+            data-aos="zoom-in-up"
             className="h-72 w-full rounded-xl duration-300 hover:shadow-rose-600 hover:shadow-lg"
             src={project?.picture2}
             alt=""
           />
           <img
+            data-aos="slide-right"
             className="h-72 w-full rounded-xl duration-300 hover:shadow-rose-600 hover:shadow-lg"
             src={project?.picture3}
             alt=""
           />
           <img
+            data-aos="slide-left"
             className="h-72 w-full rounded-xl duration-300 hover:shadow-rose-600 hover:shadow-lg"
             src={project?.picture4}
             alt=""
@@ -46,14 +50,14 @@ const ProjectDetils = () => {
             Server site{" "}
           </a>
           <a
-            className="bg-purple-600 text-sm ml-4 hover:bg-transparent hover:border duration-300 px-3 py-2 rounded-xl"
+            className="bg-purple-600 text-sm sm:ml-4 mt-2 sm:mt-0 hover:bg-transparent hover:border duration-300 px-3 py-2 rounded-xl"
             href={project?.client}
             target="_blank"
           >
             Client site{" "}
           </a>
         </div>
-        <div className="py-6 text-base">
+        <div data-aos="slide-up" className="py-6 text-base">
           <h1 className="text-2xl pb-3 font-semibold text-rose-600">
             {project.name}
           </h1>

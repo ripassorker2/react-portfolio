@@ -10,7 +10,7 @@ const Footer = () => {
               href="https://web.facebook.com/ripassarker.rifat/"
               type="button"
               target=" _blank"
-              className="rounded-full hover:bg-rose-600 bg-transparent border-2 border-white text-white leading-normal uppercase  focus:outline-none focus:ring-0 transition duration-300 ease-in-out w-9 h-9 m-1"
+              className="rounded-full hover:bg-rose-600 bg-transparent border border-rose-600 text-white leading-normal uppercase  focus:outline-none focus:ring-0 transition duration-300 ease-in-out w-9 h-9 m-1"
             >
               <svg
                 aria-hidden="true"
@@ -56,7 +56,7 @@ const Footer = () => {
               href="https://myaccount.google.com/?hl=en_GB&utm_source=OGB&utm_medium=act"
               target="_blank"
               type="button"
-              className="rounded-full hover:bg-rose-600 bg-transparent  border-2 border-white text-white leading-normal uppercase  focus:outline-none focus:ring-0 transition duration-300 ease-in-out w-9 h-9 m-1"
+              className="rounded-full hover:bg-rose-600 bg-transparent  border border-rose-600 text-white leading-normal uppercase  focus:outline-none focus:ring-0 transition duration-300 ease-in-out w-9 h-9 m-1"
             >
               <svg
                 aria-hidden="true"
@@ -101,7 +101,7 @@ const Footer = () => {
               href="https://www.linkedin.com/in/ripas-sorkar-rifat-b42a01257/"
               target="_blank"
               type="button"
-              className="rounded-full hover:bg-rose-600 bg-transparent border-2 border-white text-white leading-normal uppercase  focus:outline-none focus:ring-0 transition duration-300 ease-in-out w-9 h-9 m-1"
+              className="rounded-full hover:bg-rose-600 bg-transparent border border-rose-600 text-white leading-normal uppercase  focus:outline-none focus:ring-0 transition duration-300 ease-in-out w-9 h-9 m-1"
             >
               <svg
                 aria-hidden="true"
@@ -124,7 +124,7 @@ const Footer = () => {
               href="https://github.com/ripassorker2"
               target={"_blank"}
               type="button"
-              className="rounded-full   border-2 hover:bg-rose-600 bg-transparent border-white text-white leading-normal uppercase  focus:outline-none focus:ring-0 transition duration-300 ease-in-out w-9 h-9 m-1"
+              className="rounded-full   border hover:bg-rose-600 bg-transparent border-rose-600 text-white leading-normal uppercase  focus:outline-none focus:ring-0 transition duration-300 ease-in-out w-9 h-9 m-1"
             >
               <svg
                 aria-hidden="true"
@@ -144,7 +144,12 @@ const Footer = () => {
             </a>
           </div>
           <div className="text-center px-4 text-white">
-            2023 Copyright||All rights reserved. Created by me.
+            2023 <span className="text-rose-600">Copyright</span>|| All rights
+            reserved. Created by{" "}
+            <span className="text-rose-600 font-semibold">
+              Ripas Sorker Rifat
+            </span>
+            .
           </div>
         </div>
       </footer>
