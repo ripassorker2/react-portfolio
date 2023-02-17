@@ -5,9 +5,12 @@ import resume from "../../assets/resume.pdf";
 const About = () => {
   return (
     <section className="" id="about">
-      <h1 className="md:text-5xl mt-9 text-3xl text-[#eb10bb] font-bold text-center">
+      <h4 className="md:text-5xl mt-16 mb-2 text-3xl text-[#eb10bb] font-bold text-center">
         About Me
-      </h1>
+      </h4>
+      <h3 className="font-bold  text-xl  mb-2 text-center text-gray-100">
+        Some information about me
+      </h3>
       <div className="container grid grid-cols-1 md:grid-cols-2 p-6 mx-auto sm:py-12 lg:flex-row lg:justify-between">
         <div
           data-aos="fade-left"
@@ -34,7 +37,7 @@ const About = () => {
               <a
                 href={resume}
                 download
-                className="block w-full rounded text-center bg-[#eb10bb] px-12 py-3 text-b font-medium text-white shadow hover:bg-rose-700 focus:outline-none focus:ring active:bg-rose-500 sm:w-auto"
+                className="block w-full rounded bg-[#eb10bb] px-12 py-3 font-medium text-white shadow hover:bg-[#10eb1f] duration-300 hover:text-gray-800 focus:outline-none  sm:w-auto"
               >
                 Get Resume
               </a>

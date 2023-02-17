@@ -5,17 +5,21 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <>
-      <footer className="px-4 divide-y text-gray-200 ">
+      <footer
+        className="px-4 divide-y text-gray-200 mt-12 "
+        data-aos="slide-up"
+      >
         <div className="container flex flex-col justify-between py-10 mx-auto space-y-8 lg:flex-row lg:space-y-0">
           <div className="lg:w-1/3">
             <Link to="/" className="inline-flex items-center">
-              <span className="ml-2 text-xl font-serif font-bold tracking-wide text-gray-100 uppercase">
+              <span className="text-xl font-serif font-bold tracking-wide text-gray-100 uppercase">
                 <span className="text-[#eb10bb] py-1"> Ripas </span> Sorker{" "}
                 <span className="text-[#eb10bb] py-1">Rifat </span>
               </span>
             </Link>
+            <h3>MERN Stack Developer</h3>
           </div>
-          <div className="grid grid-cols-2 text-sm gap-x-3 gap-y-8 lg:w-2/3 sm:grid-cols-3">
+          <div className="grid  text-sm gap-x-3 gap-y-8 lg:w-2/3 sm:grid-cols-3">
             <div className="">
               <h3 className="tracking-wide uppercase dark:text-gray-50 mb-2">
                 Navlinks
@@ -79,7 +83,7 @@ const Footer = () => {
               </ul>
             </div>
             <div className="">
-              <div className="uppercase dark:text-gray-50 mb-2 ml-2">
+              <div className="uppercase dark:text-gray-50 mb-2 md:ml-2">
                 Social media
               </div>
               <div className="flex justify-start space-x-3">
@@ -87,7 +91,7 @@ const Footer = () => {
                   href="https://web.facebook.com/ripassarker.rifat/"
                   type="button"
                   target=" _blank"
-                  className="rounded-full hover:bg-[#eb10bb] bg-transparent border border-[#eb10bb] text-white leading-normal uppercase  focus:outline-none focus:ring-0 transition duration-300 ease-in-out w-9 h-9 m-1"
+                  className="rounded-full  hover:bg-[#eb10bb] bg-transparent border border-[#eb10bb] text-white leading-normal uppercase  focus:outline-none focus:ring-0 transition duration-300 ease-in-out w-9  h-9 m-1"
                 >
                   <svg
                     aria-hidden="true"
@@ -130,9 +134,9 @@ const Footer = () => {
 
                 <a
                   href="https://myaccount.google.com/?hl=en_GB&utm_source=OGB&utm_medium=act"
-                  target="_blank"
+                  target=" _blank"
                   type="button"
-                  className="rounded-full hover:bg-[#eb10bb] bg-transparent  border border-[#eb10bb] text-white leading-normal uppercase  focus:outline-none focus:ring-0 transition duration-300 ease-in-out w-9 h-9 m-1"
+                  className="rounded-full hover:bg-[#eb10bb] bg-transparent  border border-[#eb10bb] text-white leading-normal uppercase  focus:outline-none focus:ring-0 transition duration-300 ease-in-out w-9  h-9 m-1"
                 >
                   <svg
                     aria-hidden="true"
@@ -175,7 +179,7 @@ const Footer = () => {
 
                 <a
                   href="https://www.linkedin.com/in/ripas-sorkar-rifat-b42a01257/"
-                  target="_blank"
+                  target=" _blank"
                   type="button"
                   className="rounded-full hover:bg-[#eb10bb] bg-transparent border border-[#eb10bb] text-white leading-normal uppercase  focus:outline-none focus:ring-0 transition duration-300 ease-in-out w-9 h-9 m-1"
                 >
@@ -198,9 +202,9 @@ const Footer = () => {
 
                 <a
                   href="https://github.com/ripassorker2"
-                  target={"_blank"}
+                  target={" _blank"}
                   type="button"
-                  className="rounded-full   border hover:bg-[#eb10bb] bg-transparent border-[#eb10bb] text-white leading-normal uppercase  focus:outline-none focus:ring-0 transition duration-300 ease-in-out w-9 h-9 m-1"
+                  className="rounded-full   border hover:bg-[#eb10bb] bg-transparent border-[#eb10bb] text-white leading-normal uppercase  focus:outline-none focus:ring-0 transition duration-300 ease-in-out w-9  h-9 m-1"
                 >
                   <svg
                     aria-hidden="true"
@@ -222,8 +226,8 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="py-6 text-sm text-center dark:text-gray-400">
-          © 2022 Copyright. All rights reserved.
+        <div className="py-4 text-sm text-center dark:text-gray-400">
+          2023 Copyright. All rights reserved.
         </div>
       </footer>
     </>

@@ -91,7 +91,7 @@
   },
   {
     "picture": "https://miro.medium.com/max/800/1*ulCspc56K_swYE1uuel_TA.png",
-    "name": "JWT",
+    "name": "Json Web Token",
     "lavel": "Expart",
     "parcentice": "85",
     "pathColor": "#EA1080",
@@ -100,7 +100,7 @@
   },
   {
     "picture": "https://miro.medium.com/max/1400/1*NWwBHMkf--2ymnc-Zhhs_g.jpeg",
-    "name": "Redux",
+    "name": "Redux Toolkit",
     "lavel": "Comfortable",
     "parcentice": "75",
     "pathColor": "#EA1080",

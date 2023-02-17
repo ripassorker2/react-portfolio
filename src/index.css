@@ -10,11 +10,7 @@ body {
   list-style: none;
   box-sizing: border-box;
   font-family: "Fira Code", monospace;
-  background-color: #0f0f0f;
-
-  /* background: fixed; */
-
-  /* background-image: url(https://img.freepik.com/free-vector/isometric-people-working-with-technology_52683-19078.jpg?w=2000); */
+  background-color: #262624;
 }
 
 code {
