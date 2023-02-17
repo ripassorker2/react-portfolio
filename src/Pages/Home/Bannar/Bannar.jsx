@@ -7,7 +7,7 @@ import Lottie from "lottie-react";
 const Bannar = () => {
   return (
     <div className="text-white z-10">
-      <section className="bg-gray-900 ">
+      <section>
         <div className="container flex flex-col justify-center p-6 mx-auto sm:py-12 lg:py-24 lg:flex-row lg:justify-between">
           <div
             data-aos="fade-left"
@@ -29,14 +29,14 @@ const Bannar = () => {
             className="flex flex-col justify-center  text-center mt-16  rounded-sm lg:max-w-lg xl:max-w-lg lg:text-left"
           >
             <h1 className=" font-bold leading-none md:text-5xl text-3xl">
-              <span className="text-rose-600 py-1"> Hello</span>! I am <br />
-              Ripas <span className="text-rose-600 py-1">Sorker </span>
-              <span className="text-rose-600 py-1">Rifat</span>
+              <span className="text-[#eb10bb] py-1"> Hello</span>! I am <br />
+              Ripas <span className="text-[#eb10bb] py-1">Sorker </span>
+              <span className="text-[#eb10bb] py-1">Rifat</span>
             </h1>
 
             <p className="my-3 mb-8 md:text-2xl text-xl md:justify-start justify-center flex ">
               I'm a{"  "}
-              <span className="text-green-500 font-semibold">
+              <span className="text-[#10eb1f] font-semibold">
                 <Typewriter
                   options={{
                     strings: [
@@ -55,7 +55,7 @@ const Bannar = () => {
               <a
                 href={resume}
                 download
-                className="block w-full rounded bg-rose-600 px-12 py-3 text-b font-medium text-white shadow hover:bg-rose-700 focus:outline-none focus:ring active:bg-rose-500 sm:w-auto"
+                className="block w-full rounded bg-[#eb10bb] px-12 py-3 text-b font-medium text-white shadow hover:bg-rose-700 focus:outline-none focus:ring active:bg-rose-500 sm:w-auto"
               >
                 Get Resume
               </a>

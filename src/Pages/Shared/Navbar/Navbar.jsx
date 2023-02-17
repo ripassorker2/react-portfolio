@@ -10,15 +10,10 @@ const Navbar = () => {
       id="home"
     >
       <div className="relative flex items-center justify-between">
-        <Link
-          to="/"
-          aria-label="Company"
-          title="Company"
-          className="inline-flex items-center"
-        >
+        <Link to="/" className="inline-flex items-center">
           <span className="ml-2 text-xl font-serif font-bold tracking-wide text-gray-100 uppercase">
-            <span className="text-rose-600 py-1"> Ripas </span> Sorker{" "}
-            <span className="text-rose-600 py-1">Rifat </span>
+            <span className="text-[#eb10bb] py-1"> Ripas </span> Sorker{" "}
+            <span className="text-[#eb10bb] py-1">Rifat </span>
           </span>
         </Link>
         <ul className="lg:flex items-center hidden space-x-8">
@@ -26,9 +21,9 @@ const Navbar = () => {
             <NavLink
               to="/home"
               style={({ isActive }) => ({
-                color: isActive && "#f43f5e",
+                color: isActive && "#eb10bb",
               })}
-              className="font-medium tracking-wide text-gray-00 transition-colors duration-200 hover:text-deep-purple-accent-400 hover:text-rose-600 "
+              className="font-medium tracking-wide text-gray-00 transition-colors duration-200 hover:text-deep-purple-accent-400 hover:text-[#eb10bb] "
             >
               Home
             </NavLink>
@@ -37,9 +32,9 @@ const Navbar = () => {
             <NavLink
               to="/skills"
               style={({ isActive }) => ({
-                color: isActive && "#f43f5e",
+                color: isActive && "#eb10bb",
               })}
-              className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-deep-purple-accent-400 hover:text-rose-600 "
+              className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-deep-purple-accent-400 hover:text-[#eb10bb] "
             >
               Skills
             </NavLink>
@@ -48,9 +43,9 @@ const Navbar = () => {
             <NavLink
               to="/projects"
               style={({ isActive }) => ({
-                color: isActive && "#f43f5e",
+                color: isActive && "#eb10bb",
               })}
-              className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-deep-purple-accent-400 hover:text-rose-600 "
+              className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-deep-purple-accent-400 hover:text-[#eb10bb] "
             >
               Projects
             </NavLink>
@@ -59,9 +54,9 @@ const Navbar = () => {
             <NavLink
               to="/blogs"
               style={({ isActive }) => ({
-                color: isActive && "#f43f5e",
+                color: isActive && "#eb10bb",
               })}
-              className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-deep-purple-accent-400 hover:text-rose-600 "
+              className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-deep-purple-accent-400 hover:text-[#eb10bb] "
             >
               Blogs
             </NavLink>
@@ -71,9 +66,9 @@ const Navbar = () => {
             <NavLink
               to="/contact"
               style={({ isActive }) => ({
-                color: isActive && "#f43f5e",
+                color: isActive && "#eb10bb",
               })}
-              className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-deep-purple-accent-400 hover:text-rose-600 "
+              className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-deep-purple-accent-400 hover:text-[#eb10bb] "
             >
               Contact
             </NavLink>
@@ -82,9 +77,9 @@ const Navbar = () => {
             <NavLink
               to="/about"
               style={({ isActive }) => ({
-                color: isActive && "#f43f5e",
+                color: isActive && "#eb10bb",
               })}
-              className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-deep-purple-accent-400 hover:text-rose-600 "
+              className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-deep-purple-accent-400 hover:text-[#eb10bb] "
             >
               About
             </NavLink>
@@ -93,7 +88,7 @@ const Navbar = () => {
             <a
               href={resume}
               download
-              className="block w-full rounded bg-rose-600  px-4 py-2 font-medium text-white shadow hover:bg-rose-700 focus:outline-none focus:ring active:bg-rose-500 sm:w-auto"
+              className="block w-full rounded bg-[#eb10bb]  px-4 py-2 font-medium text-white shadow hover:bg-rose-700 focus:outline-none focus:ring active:bg-rose-500 sm:w-auto"
             >
               Get Resume
             </a>
@@ -133,9 +128,9 @@ const Navbar = () => {
                       className="inline-flex items-center"
                     >
                       <span className="ml-2 text-xl font-serif font-bold tracking-wide text-gray-100 uppercase">
-                        <span className="text-rose-600 py-1"> Ripas </span>{" "}
+                        <span className="text-[#eb10bb] py-1"> Ripas </span>{" "}
                         Sorker{" "}
-                        <span className="text-rose-600 py-1">Rifat </span>
+                        <span className="text-[#eb10bb] py-1">Rifat </span>
                       </span>
                     </a>
                   </div>
@@ -161,9 +156,9 @@ const Navbar = () => {
                       <NavLink
                         to="/home"
                         style={({ isActive }) => ({
-                          color: isActive && "#f43f5e",
+                          color: isActive && "#eb10bb",
                         })}
-                        className="font-medium tracking-wide text-gray-00 transition-colors duration-200 hover:text-deep-purple-accent-400 hover:text-rose-600 "
+                        className="font-medium tracking-wide text-gray-00 transition-colors duration-200 hover:text-deep-purple-accent-400 hover:text-[#eb10bb] "
                       >
                         Home
                       </NavLink>
@@ -172,9 +167,9 @@ const Navbar = () => {
                       <NavLink
                         to="/skills"
                         style={({ isActive }) => ({
-                          color: isActive && "#f43f5e",
+                          color: isActive && "#eb10bb",
                         })}
-                        className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-deep-purple-accent-400 hover:text-rose-600 "
+                        className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-deep-purple-accent-400 hover:text-[#eb10bb] "
                       >
                         Skills
                       </NavLink>
@@ -183,9 +178,9 @@ const Navbar = () => {
                       <NavLink
                         to="/projects"
                         style={({ isActive }) => ({
-                          color: isActive && "#f43f5e",
+                          color: isActive && "#eb10bb",
                         })}
-                        className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-deep-purple-accent-400 hover:text-rose-600 "
+                        className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-deep-purple-accent-400 hover:text-[#eb10bb] "
                       >
                         Projects
                       </NavLink>
@@ -195,9 +190,9 @@ const Navbar = () => {
                       <NavLink
                         to="/contact"
                         style={({ isActive }) => ({
-                          color: isActive && "#f43f5e",
+                          color: isActive && "#eb10bb",
                         })}
-                        className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-deep-purple-accent-400 hover:text-rose-600 "
+                        className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-deep-purple-accent-400 hover:text-[#eb10bb] "
                       >
                         Contact
                       </NavLink>
@@ -206,9 +201,9 @@ const Navbar = () => {
                       <NavLink
                         to="/about"
                         style={({ isActive }) => ({
-                          color: isActive && "#f43f5e",
+                          color: isActive && "#eb10bb",
                         })}
-                        className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-deep-purple-accent-400 hover:text-rose-600 "
+                        className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-deep-purple-accent-400 hover:text-[#eb10bb] "
                       >
                         About
                       </NavLink>
@@ -217,7 +212,7 @@ const Navbar = () => {
                       <a
                         href={resume}
                         download
-                        className="block w-full rounded bg-rose-600   px-4 py-2 font-medium text-white shadow hover:bg-rose-700 focus:outline-none focus:ring active:bg-rose-500 sm:w-auto"
+                        className="block w-full rounded bg-[#eb10bb]   px-4 py-2 font-medium text-white shadow hover:bg-rose-700 focus:outline-none focus:ring active:bg-rose-500 sm:w-auto"
                       >
                         Get Resume
                       </a>

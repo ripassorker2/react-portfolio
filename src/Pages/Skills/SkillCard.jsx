@@ -1,25 +1,37 @@
 import React from "react";
+import {
+  buildStyles,
+  CircularProgressbarWithChildren,
+} from "react-circular-progressbar";
+
+import "react-circular-progressbar/dist/styles.css";
+import CountUp from "react-countup";
 
 const SkillCard = ({ skill }) => {
   return (
     <>
-      <div className="group relative   rounded-xl cursor-pointer items-center justify-center overflow-hidden transition-shadow duration-300 hover:shadow-rose-600 hover:shadow-md">
-        <div className="h-40">
-          <img
-            className="h-full w-full bg-cover  transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125"
-            src={skill?.picture}
-            alt=""
-          />
-        </div>
-        <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-blac group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
-        <div className="absolute inset-0 flex translate-y-[85%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
-          <h1 className="font-dmserif text-3xl font-bold text-white">
-            {skill?.name}
-          </h1>
-          <h4 className="font-dmserif text-xl  text-rose-100">
-            {skill?.lavel}
-          </h4>
-        </div>
+      <div className="relative h-40 " data-aos={skill.animation}>
+        <CircularProgressbarWithChildren
+          className="h-36"
+          value={skill.parcentice}
+          backgroundPadding={4}
+          styles={buildStyles({
+            pathColor: "#10eb1f",
+            trailColor: "#eb10bb",
+          })}
+        >
+          <div className="absolute text-white lg:-bottom-14 md:-bottom-10 sm:-bottom-4 -bottom-24 flex flex-col items-center">
+            <img
+              className="h-16 w-16 rounded-full"
+              src={skill.picture}
+              alt=""
+            />
+            <h4 className="pt-1 text-[#1076eb] text-lg font-semibold">
+              <CountUp start={0} end={skill.parcentice} duration={2} />%
+            </h4>
+          </div>
+        </CircularProgressbarWithChildren>
+        <h3 className="text-gray-100 text-center">{skill.name}</h3>
       </div>
     </>
   );

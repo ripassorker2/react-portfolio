@@ -22,13 +22,13 @@ const Projects = () => {
 
   return (
     <div className="py-12" id="project">
-      <h3 className="md:text-5xl  font-bold mb-9 text-3xl text-center text-rose-600">
+      <h3 className="md:text-5xl  font-bold mb-9 text-3xl text-center text-[#eb10bb]">
         My Projects{" "}
       </h3>
 
       <div
         data-aos="fade-up"
-        className="mt-7 grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 w-[80%] md:w-[92%] mx-auto gap-8"
+        className="mt-7 grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 w-[80%] md:w-[88%] mx-auto gap-8"
       >
         {projects?.map((project, index) => (
           <ProjectCard key={index} project={project} />
