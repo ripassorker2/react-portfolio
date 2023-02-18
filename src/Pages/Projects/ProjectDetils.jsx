@@ -10,25 +10,25 @@ const ProjectDetils = () => {
         <div className="grid md:grid-cols-2 mt-10 gap-10 ">
           <img
             data-aos="zoom-in-up"
-            className="h-72 w-full rounded-xl duration-300 hover:shadow-[#eb10bb] hover:shadow-lg"
+            className="h-72 w-full rounded-xl duration-1000 hover:shadow-[#eb10bb] hover:shadow-lg"
             src={project?.picture1}
             alt=""
           />
           <img
             data-aos="zoom-in-up"
-            className="h-72 w-full rounded-xl duration-300 hover:shadow-[#eb10bb] hover:shadow-lg"
+            className="h-72 w-full rounded-xl duration-1000 hover:shadow-[#eb10bb] hover:shadow-lg"
             src={project?.picture2}
             alt=""
           />
           <img
             data-aos="slide-right"
-            className="h-72 w-full rounded-xl duration-300 hover:shadow-[#eb10bb] hover:shadow-lg"
+            className="h-72 w-full rounded-xl duration-1000 hover:shadow-[#eb10bb] hover:shadow-lg"
             src={project?.picture3}
             alt=""
           />
           <img
             data-aos="slide-left"
-            className="h-72 w-full rounded-xl duration-300 hover:shadow-[#eb10bb] hover:shadow-lg"
+            className="h-72 w-full rounded-xl duration-1000 hover:shadow-[#eb10bb] hover:shadow-lg"
             src={project?.picture4}
             alt=""
           />

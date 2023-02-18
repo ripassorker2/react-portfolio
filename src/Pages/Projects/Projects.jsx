@@ -21,7 +21,7 @@ const Projects = () => {
   }
 
   return (
-    <div className="py-12" id="project">
+    <div className="pt-20" id="project">
       <h3 className="md:text-5xl mb-2 font-bold mt-16 text-3xl text-center text-[#eb10bb]">
         My Projects
       </h3>

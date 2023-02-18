@@ -15,13 +15,13 @@ const Skills = () => {
         setLoading(false);
       });
   }, []);
-
+  console.log(skills);
   if (loading) {
     return <Loader />;
   }
 
   return (
-    <div className="mt-20" id="skill">
+    <div className="mt-32" id="skill">
       <h3 className="md:text-5xl -z-10 font-bold mt-12 mb-2 text-3xl text-center text-[#eb10bb]">
         My Skills{" "}
       </h3>

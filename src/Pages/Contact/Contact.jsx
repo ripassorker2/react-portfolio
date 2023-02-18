@@ -30,7 +30,7 @@ const Contact = () => {
   return (
     <div>
       <section
-        className=" text-gray-800 pt-12 w-[80%] md:w-[92%] mx-auto "
+        className=" text-gray-800 pt-28 w-[80%] md:w-[92%] mx-auto "
         id="contact"
       >
         <h4 className="md:text-5xl mb-2 text-3xl text-[#eb10bb] font-bold text-center">

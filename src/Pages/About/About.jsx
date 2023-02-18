@@ -5,7 +5,7 @@ import resume from "../../assets/resume.pdf";
 const About = () => {
   return (
     <section className="" id="about">
-      <h4 className="md:text-5xl mt-16 mb-2 text-3xl text-[#eb10bb] font-bold text-center">
+      <h4 className="md:text-5xl mt-28 mb-2 text-3xl text-[#eb10bb] font-bold text-center">
         About Me
       </h4>
       <h3 className="font-bold  text-xl  mb-2 text-center text-gray-100">
