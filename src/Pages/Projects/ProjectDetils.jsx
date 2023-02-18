@@ -1,13 +1,16 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { BsCircleFill } from "react-icons/bs";
 import { useLoaderData } from "react-router-dom";
 
 const ProjectDetils = () => {
   const project = useLoaderData()[0];
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div>
       <div className="w-[90%] md:w-[92%] m-auto text-gray-100">
-        <div className="grid md:grid-cols-2 mt-10 gap-10 ">
+        <div className="grid md:grid-cols-2 mt-32 gap-10 ">
           <img
             data-aos="zoom-in-up"
             className="h-72 w-full rounded-xl duration-1000 hover:shadow-[#eb10bb] hover:shadow-lg"
