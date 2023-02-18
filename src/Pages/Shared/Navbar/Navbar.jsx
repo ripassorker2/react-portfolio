@@ -7,13 +7,13 @@ const Navbar = () => {
   return (
     <div
       className="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full 
-      border-b border-[#10eb1f] md:px-8  shadow-2xl bg-[#262624] text-gray-100 "
+      md:px-8  shadow-lg shadow-gray-500 bg-[#262624] text-gray-100 "
       id="home"
     >
       <div className="relative flex items-center justify-between ">
         <Link to="/" className="inline-flex items-center">
           <span className="ml-2 text-xl font-serif font-bold tracking-wide text-gray-100 uppercase">
-            <span className="text-[#eb10bb] py-1"> Ripas </span> Sorker{" "}
+            <span className="text-[#eb10bb] py-1"> Ripas </span> Sorker
             <span className="text-[#eb10bb] py-1">Rifat </span>
           </span>
         </Link>
@@ -118,38 +118,36 @@ const Navbar = () => {
             </svg>
           </button>
           {isMenuOpen && (
-            <div className="absolute top-0  z-[1000] left-0 w-full">
+            <div className="absolute top-0  z-[1000] left-0 w-full duration-300">
               <div className="p-5  border bg-gray-900 rounded shadow-sm">
-                <div className="flex items-center justify-between mb-4">
-                  <div>
-                    <a
-                      href="/"
-                      aria-label="Company"
-                      title="Company"
-                      className="inline-flex items-center"
-                    >
-                      <span className="ml-2 text-xl font-serif font-bold tracking-wide text-gray-100 uppercase">
-                        <span className="text-[#eb10bb] py-1"> Ripas </span>{" "}
-                        Sorker{" "}
-                        <span className="text-[#eb10bb] py-1">Rifat </span>
+                <div className=" relative mb-4">
+                  <Link
+                    to={"/"}
+                    className="inline- block items-center text-center"
+                  >
+                    <span className="ml-2 text-xl font-serif font-bold tracking-wide text-gray-100 uppercase inline-block">
+                      <span className="text-[#eb10bb] py-1 inline-block">
+                        Ripas
                       </span>
-                    </a>
-                  </div>
-                  <div>
-                    <button
-                      aria-label="Close Menu"
-                      title="Close Menu"
-                      className="p-2 -mt-2 -mr-2 transition duration-200 rounded hover:bg-gray-400 focus:bg-gray-400 focus:outline-none focus:shadow-outline"
-                      onClick={() => setIsMenuOpen(false)}
-                    >
-                      <svg className="w-5 text-gray-400" viewBox="0 0 24 24">
-                        <path
-                          fill="currentColor"
-                          d="M19.7,4.3c-0.4-0.4-1-0.4-1.4,0L12,10.6L5.7,4.3c-0.4-0.4-1-0.4-1.4,0s-0.4,1,0,1.4l6.3,6.3l-6.3,6.3 c-0.4,0.4-0.4,1,0,1.4C4.5,19.9,4.7,20,5,20s0.5-0.1,0.7-0.3l6.3-6.3l6.3,6.3c0.2,0.2,0.5,0.3,0.7,0.3s0.5-0.1,0.7-0.3 c0.4-0.4,0.4-1,0-1.4L13.4,12l6.3-6.3C20.1,5.3,20.1,4.7,19.7,4.3z"
-                        />
-                      </svg>
-                    </button>
-                  </div>
+                      Sorker
+                      <span className="text-[#eb10bb] py-1 inline-block">
+                        Rifat
+                      </span>
+                    </span>
+                  </Link>
+                  <button
+                    aria-label="Close Menu"
+                    title="Close Menu"
+                    className="p-2 -mt-2 -mr-2 transition duration-300 rounded  absolute right-0 top-2 focus:shadow-outline"
+                    onClick={() => setIsMenuOpen(false)}
+                  >
+                    <svg className="w-5 text-gray-400" viewBox="0 0 24 24">
+                      <path
+                        fill="currentColor"
+                        d="M19.7,4.3c-0.4-0.4-1-0.4-1.4,0L12,10.6L5.7,4.3c-0.4-0.4-1-0.4-1.4,0s-0.4,1,0,1.4l6.3,6.3l-6.3,6.3 c-0.4,0.4-0.4,1,0,1.4C4.5,19.9,4.7,20,5,20s0.5-0.1,0.7-0.3l6.3-6.3l6.3,6.3c0.2,0.2,0.5,0.3,0.7,0.3s0.5-0.1,0.7-0.3 c0.4-0.4,0.4-1,0-1.4L13.4,12l6.3-6.3C20.1,5.3,20.1,4.7,19.7,4.3z"
+                      />
+                    </svg>
+                  </button>
                 </div>
                 <nav>
                   <ul className="space-y-4 text-center">

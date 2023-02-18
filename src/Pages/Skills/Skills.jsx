@@ -29,7 +29,7 @@ const Skills = () => {
         Technologies that I work with
       </h3>
 
-      <div className="mt-7  grid lg:grid-cols-4 md:grid-cols-4 sm:grid-cols-3  items-center grid-cols-1 w-[80%] md:w-[92%] m-auto  gap-11">
+      <div className="mt-7  grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2  items-center grid-cols-1 w-[80%] md:w-[92%] m-auto  gap-11">
         {skills?.map((skill, index) => (
           <SkillCard key={index} skill={skill} />
         ))}

@@ -1,5 +1,5 @@
 import React from "react";
-import rifat1 from "../../assets/rifat1.png";
+import rifat from "../../assets/rifat.jpg";
 import resume from "../../assets/resume.pdf";
 
 const About = () => {
@@ -14,10 +14,10 @@ const About = () => {
       <div className="container grid grid-cols-1 md:grid-cols-2 p-6 mx-auto sm:py-12 lg:flex-row lg:justify-between">
         <div
           data-aos="fade-left"
-          className="flex items-center rounded-xl w-full justify-center p-6 mt-8 lg:mt-0 h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128"
+          className="flex items-center rounded-xl w-full justify-center p-6 mt-8 lg:mt-0 h-72 sm:h-96 lg:h-96 xl:h-112 2xl:h-128"
         >
           <img
-            src={rifat1}
+            src={rifat}
             alt=""
             className="object-contain rounded-xl bg-transparent w-full h-72 sm:h-80 lg:h-96"
           />
@@ -32,16 +32,15 @@ const About = () => {
             deep interest in Web Development and I made some full-stack projects
             using React, Node, Express, and MongoDB.
           </p>
-          <div className="flex flex-col space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start">
-            <div className="flex flex-col space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start">
-              <a
-                href={resume}
-                download
-                className="block w-full rounded bg-[#eb10bb] px-12 py-3 font-medium text-white shadow hover:bg-[#10eb1f] duration-300 hover:text-gray-800 focus:outline-none  sm:w-auto"
-              >
-                Get Resume
-              </a>
-            </div>
+
+          <div className="flex flex-col space-y-4 sm:flex-row sm:space-y-0 sm:space-x-4 md:justify-start">
+            <a
+              href={resume}
+              download
+              className="block w-full rounded bg-[#eb10bb] px-12 py-3 font-medium text-white shadow hover:bg-[#10eb1f] duration-300 hover:text-gray-800 focus:outline-none  sm:w-auto"
+            >
+              Get Resume
+            </a>
           </div>
         </div>
       </div>
