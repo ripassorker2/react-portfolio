@@ -35,23 +35,23 @@ const ProjectDetils = () => {
         </div>
         <div className="mt-6 flex sm:justify-end flex-wrap">
           <a
-            className="bg-[#eb10bb] text-gray-900 border hover:text-gray-100 text-sm sm:ml-4 hover:bg-transparent hover:border duration-300 px-3 py-2 rounded-xl"
+            className="bg-[#eb10bb] text-gray-100 border 0 text-sm sm:ml-4 hover:bg-transparent hover:border duration-300 px-3 py-2 rounded-xl"
             href={project?.live}
-            target="_blank"
+            target=" _blank"
           >
             Live site{" "}
           </a>
           <a
-            className="bg-[#10eb1f] text-gray-900 border hover:text-gray-100 text-sm ml-4 hover:bg-transparent hover:border duration-300 px-3 py-2 rounded-xl"
+            className="bg-[#10eb1f] text-gray-100 border  text-sm ml-4 hover:bg-transparent hover:border duration-300 px-3 py-2 rounded-xl"
             href={project?.server}
-            target="_blank"
+            target=" _blank"
           >
             Server site{" "}
           </a>
           <a
-            className="bg-purple-600 text-gray-900 border hover:text-gray-100 text-sm sm:ml-4 mt-2 sm:mt-0 hover:bg-transparent hover:border duration-300 px-3 py-2 rounded-xl"
+            className="bg-purple-600 outline-none text-gray-100 border  text-sm sm:ml-4 mt-2 sm:mt-0 hover:bg-transparent hover:border duration-300 px-3 py-2 rounded-xl"
             href={project?.client}
-            target="_blank"
+            target=" _blank"
           >
             Client site{" "}
           </a>

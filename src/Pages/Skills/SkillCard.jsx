@@ -5,27 +5,28 @@ import {
 } from "react-circular-progressbar";
 
 import "react-circular-progressbar/dist/styles.css";
+import "../Projects/card.css";
 
 const SkillCard = ({ skill }) => {
   return (
     <>
       <div
-        className=" p-8 hover:border rounded-lg hover:shadow-[#eb10bb] hover:shadow-lg"
+        className=" p-8  rounded-lg hover:shadow-[#eb10bb] shadoww hover:shadow-lg overflow-hidden"
         data-aos={skill.animation}
       >
         <CircularProgressbarWithChildren
-          className="h-36"
+          className="h-40"
           value={skill.parcentice}
           text={skill.lavel}
           backgroundPadding={6}
           styles={buildStyles({
             pathColor: "#10eb1f",
             trailColor: "#eb10bb",
-            textSize: "11px",
+            textSize: "12px",
             textColor: "#eb10bb",
           })}
         ></CircularProgressbarWithChildren>
-        <h3 className="text-gray-100 text-center">{skill.name}</h3>
+        <h3 className="text-[#10eb1f] mt-1 text-center">{skill.name}</h3>
       </div>
     </>
   );
