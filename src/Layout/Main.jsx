@@ -6,7 +6,9 @@ import Navbar from "../Pages/Shared/Navbar/Navbar";
 const Main = () => {
   return (
     <>
-      <Navbar />
+      <div className="w-[100%] fixed top-0 z-50 ">
+        <Navbar />
+      </div>
       <Outlet />
       <Footer />
     </>

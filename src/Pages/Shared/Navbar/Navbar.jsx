@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <div
       className="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full 
-      border-b border-gray-400 md:px-8  shadow-2xl  text-gray-100 "
+      border-b border-[#10eb1f] md:px-8  shadow-2xl bg-[#262624] text-gray-100 "
       id="home"
     >
       <div className="relative flex items-center justify-between ">
@@ -213,7 +213,7 @@ const Navbar = () => {
                       <a
                         href={resume}
                         download
-                        className="block w-full rounded bg-[#eb10bb]   px-4 py-2 font-medium text-white shadow hover:bg-rose-700 focus:outline-none focus:ring active:bg-rose-500 sm:w-auto"
+                        className="block w-full rounded bg-[#eb10bb]   px-4 py-2 font-medium text-white shadow hover:bg-[#10eb1f] focus:outline-none focus:ring active:bg-rose-500 sm:w-auto"
                       >
                         Get Resume
                       </a>

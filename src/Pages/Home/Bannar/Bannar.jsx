@@ -6,7 +6,7 @@ import Lottie from "lottie-react";
 
 const Bannar = () => {
   return (
-    <div className="text-white z-10">
+    <div className="text-white  mt-16">
       <section>
         <div className="container flex flex-col justify-center p-6 mx-auto sm:py-12 lg:py-24 lg:flex-row lg:justify-between">
           <div
