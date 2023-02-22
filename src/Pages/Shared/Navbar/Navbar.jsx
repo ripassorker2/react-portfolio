@@ -12,7 +12,7 @@ const Navbar = () => {
     >
       <div className="relative flex items-center justify-between ">
         <Link to="/" className="inline-flex items-center">
-          <span className="ml-2 text-xl font-serif font-bold tracking-wide text-gray-100 uppercase">
+          <span className="ml-2 text-2xl font-serif font-bold tracking-wide text-gray-100 uppercase">
             <span className="text-[#eb10bb] py-1"> R </span> S
             <span className="text-[#eb10bb] py-1"> R</span>
           </span>
