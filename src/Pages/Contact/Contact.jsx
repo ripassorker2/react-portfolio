@@ -36,7 +36,7 @@ const Contact = () => {
         <h4 className="md:text-5xl mb-2 text-3xl text-[#eb10bb] font-bold text-center">
           Contact Me
         </h4>
-        <h3 className="text-xl font-semibold mb-11 text-gray-100 text-center">
+        <h3 className="md:text-xl text-lg font-semibold mb-11 text-gray-100 text-center">
           If you have any queries, Please ask me?
         </h3>
         <div className="relative overflow-hidden bg-no-repeat bg-cover"></div>

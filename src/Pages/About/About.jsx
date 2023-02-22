@@ -8,7 +8,7 @@ const About = () => {
       <h4 className="md:text-5xl mt-28 mb-2 text-3xl text-[#eb10bb] font-bold text-center">
         About Me
       </h4>
-      <h3 className="font-bold  text-xl  mb-2 text-center text-gray-100">
+      <h3 className="font-bold  md:text-xl text-lg mb-2 text-center text-gray-100">
         Some information about me
       </h3>
       <div className="container grid grid-cols-1 md:grid-cols-2 p-6 mx-auto sm:py-12 lg:flex-row lg:justify-between">
@@ -37,7 +37,7 @@ const About = () => {
             <a
               href={resume}
               download
-              className="block w-full rounded bg-[#eb10bb] px-12 py-3 font-medium text-white shadow hover:bg-[#10eb1f] duration-300 hover:text-gray-800 focus:outline-none  sm:w-auto"
+              className="block text-center w-full rounded bg-[#eb10bb] px-12 py-3 font-medium text-white shadow hover:bg-[#10eb1f] duration-300 hover:text-gray-800 focus:outline-none  sm:w-auto"
             >
               Get Resume
             </a>

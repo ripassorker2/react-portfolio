@@ -25,7 +25,7 @@ const Skills = () => {
       <h3 className="md:text-5xl -z-10 font-bold mt-12 mb-2 text-3xl text-center text-[#eb10bb]">
         My Skills{" "}
       </h3>
-      <h3 className=" -z-10 font-bold mb-12 text-xl text-center text-gray-100">
+      <h3 className=" -z-10 font-bold mb-12 md:text-xl text-lg text-center text-gray-100">
         Technologies that I work with
       </h3>
 

@@ -13,8 +13,8 @@ const Navbar = () => {
       <div className="relative flex items-center justify-between ">
         <Link to="/" className="inline-flex items-center">
           <span className="ml-2 text-xl font-serif font-bold tracking-wide text-gray-100 uppercase">
-            <span className="text-[#eb10bb] py-1"> Ripas </span> Sorker
-            <span className="text-[#eb10bb] py-1">Rifat </span>
+            <span className="text-[#eb10bb] py-1"> R </span> S
+            <span className="text-[#eb10bb] py-1"> R</span>
           </span>
         </Link>
         <ul className="lg:flex items-center hidden space-x-8">
@@ -121,19 +121,12 @@ const Navbar = () => {
             <div className="absolute top-0  z-[1000] left-0 w-full duration-300">
               <div className="p-5  border bg-gray-900 rounded shadow-sm">
                 <div className=" relative mb-4">
-                  <Link
-                    to={"/"}
-                    className="inline- block items-center text-center"
-                  >
-                    <span className="ml-2 text-xl font-serif font-bold tracking-wide text-gray-100 uppercase inline-block">
-                      <span className="text-[#eb10bb] py-1 inline-block">
-                        Ripas
-                      </span>
-                      Sorker
-                      <span className="text-[#eb10bb] py-1 inline-block">
-                        Rifat
-                      </span>
-                    </span>
+                  <Link to={"/"} className="">
+                    <p className="ml-2 flex text-xl font-serif font-bold tracking-wide text-gray-100 uppercase justify-center items-center">
+                      <span className="text-[#eb10bb] py-1 ">Ripas </span>
+                      <span> -Sorker- </span>
+                      <span className="text-[#eb10bb] py-1 ">Rifat </span>
+                    </p>
                   </Link>
                   <button
                     aria-label="Close Menu"

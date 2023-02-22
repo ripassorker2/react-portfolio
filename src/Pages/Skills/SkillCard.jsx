@@ -11,7 +11,7 @@ const SkillCard = ({ skill }) => {
   return (
     <>
       <div
-        className=" p-8  rounded-lg hover:shadow-[#eb10bb] duration-1000 shadoww hover:shadow-lg overflow-hidden"
+        className=" p-8  rounded-lg hover:shadow-[#eb10bb] shadoww hover:shadow-lg  !duration-1000 hover:-skew-y-12 hover:scale-125 "
         data-aos={skill.animation}
       >
         <CircularProgressbarWithChildren

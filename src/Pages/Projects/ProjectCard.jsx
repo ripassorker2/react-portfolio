@@ -22,7 +22,7 @@ const ProjectCard = ({ project }) => {
             {project.name}
           </h4>
 
-          <p className="text-gray-100 mb-2">
+          <p className="text-gray-100 mb-2 font-serif">
             {project?.description[2].point.slice(0, 55)}....
           </p>
 

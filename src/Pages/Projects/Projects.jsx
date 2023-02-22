@@ -25,7 +25,7 @@ const Projects = () => {
       <h3 className="md:text-5xl mb-2 font-bold mt-16 text-3xl text-center text-[#eb10bb]">
         My Projects
       </h3>
-      <h3 className="font-bold mb-11 text-xl text-center text-gray-100">
+      <h3 className="font-bold mb-11 md:text-xl text-lg text-center text-gray-100">
         Some of the projects I have done
       </h3>
 
