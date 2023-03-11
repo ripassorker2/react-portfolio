@@ -1,80 +1,80 @@
 [
-  {
-    "name": "HTMT5",
-    "lavel": "Expart",
-    "parcentice": "90",
-    "animation": "fade-right"
-  },
-  {
-    "name": "CSS3",
-    "lavel": "Expart",
-    "parcentice": "85",
-    "animation": "fade-up-left"
-  },
-  {
-    "name": "Tailwind",
-    "lavel": "Expart",
-    "parcentice": "90",
-    "animation": "fade-left"
-  },
-  {
-    "name": "Bootstrap5",
-    "lavel": "Expart",
-    "parcentice": "80",
-    "animation": "fade-up-right"
-  },
-  {
-    "name": "JavaScript",
-    "lavel": "Comfortable",
-    "parcentice": "80",
-    "animation": "fade-up-left"
-  },
-  {
-    "name": "React Js",
-    "lavel": "Expart",
-    "parcentice": "85",
-    "animation": "fade-up-left"
-  },
-  {
-    "name": "Node Js",
-    "lavel": "Comfortable",
-    "parcentice": "65",
-    "animation": "fade-up-right"
-  },
-  {
-    "name": "Express Js",
-    "lavel": "Comfortable",
-    "parcentice": "60",
-    "animation": "fade-left"
-  },
-  {
-    "name": "MongoDB",
-    "lavel": "Comfortable",
-    "parcentice": "75",
-    "animation": "fade-up-left"
-  },
-  {
-    "name": "Mongoose",
-    "lavel": "Comfortable",
-    "parcentice": "65",
-    "animation": "fade-up-left"
-  },
-  {
-    "name": "Firebase",
-    "lavel": "Expart",
-    "parcentice": "80",
-    "animation": "fade-left"
-  },
-  {
-    "name": "Json Web Token",
-    "lavel": "Expart",
-    "parcentice": "85",
-    "animation": "fade-right"
-  },
-  {
-    "name": "Redux Toolkit",
-    "lavel": "Comfortable",
-    "parcentice": "75",
-    "animation": "fade-up-left"
-  }
+   {
+      "name": "HTMT5",
+      "lavel": "Expart",
+      "parcentice": "90",
+      "animation": "fade-right"
+   },
+   {
+      "name": "CSS3",
+      "lavel": "Expart",
+      "parcentice": "85",
+      "animation": "fade-up-left"
+   },
+   {
+      "name": "Tailwind",
+      "lavel": "Expart",
+      "parcentice": "90",
+      "animation": "fade-left"
+   },
+   {
+      "name": "Bootstrap5",
+      "lavel": "Expart",
+      "parcentice": "80",
+      "animation": "fade-up-right"
+   },
+   {
+      "name": "JavaScript",
+      "lavel": "Comfortable",
+      "parcentice": "80",
+      "animation": "fade-up-left"
+   },
+   {
+      "name": "React Js",
+      "lavel": "Expart",
+      "parcentice": "85",
+      "animation": "fade-up-left"
+   },
+   {
+      "name": "Node Js",
+      "lavel": "Comfortable",
+      "parcentice": "65",
+      "animation": "fade-up-right"
+   },
+   {
+      "name": "Express Js",
+      "lavel": "Comfortable",
+      "parcentice": "60",
+      "animation": "fade-left"
+   },
+   {
+      "name": "MongoDB",
+      "lavel": "Comfortable",
+      "parcentice": "75",
+      "animation": "fade-up-left"
+   },
+   {
+      "name": "Mongoose",
+      "lavel": "Comfortable",
+      "parcentice": "65",
+      "animation": "fade-up-left"
+   },
+   {
+      "name": "Firebase",
+      "lavel": "Expart",
+      "parcentice": "80",
+      "animation": "fade-left"
+   },
+   {
+      "name": "JWT",
+      "lavel": "Expart",
+      "parcentice": "85",
+      "animation": "fade-right"
+   },
+   {
+      "name": "Redux Toolkit",
+      "lavel": "Comfortable",
+      "parcentice": "75",
+      "animation": "fade-up-left"
+   }
 ]
