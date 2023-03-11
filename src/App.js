@@ -7,14 +7,14 @@ import { useEffect } from "react";
 // ..
 
 function App() {
-  useEffect(() => {
-    AOS.init({ duration: 1000 });
-  }, []);
-  return (
-    <div className="max-w-[1440px] mx-auto overflow-hidden">
-      <RouterProvider router={router}></RouterProvider>
-    </div>
-  );
+   useEffect(() => {
+      AOS.init({ duration: 1000 });
+   }, []);
+   return (
+      <div className="max-w-[1440px] mx-auto overflow-hidden font-serif">
+         <RouterProvider router={router}></RouterProvider>
+      </div>
+   );
 }
 
 export default App;
