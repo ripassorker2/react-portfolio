@@ -27,7 +27,7 @@ const Projects = () => {
             My Projects
          </h3>
          <h3 className="font-semibold mb-11 md:text-xl text-lg text-center text-gray-400">
-            {"<==="} Some of the projects I have done {"===>"}
+            {"<---"} Some of the projects I have done {"--->"}
          </h3>
 
          {/* <ProjectTab /> */}

@@ -42,9 +42,9 @@ const Skills = () => {
 
          <div className="">
             <h4 className="text-gray-400 text-center text-3xl my-5 font-semibold">
-               {"<==="} For frontend {"===>"}
+               {"<---"} For frontend {"--->"}
             </h4>
-            <Marquee delay={0} speed={50} gradient={false} pauseOnHover={true}>
+            <Marquee delay={0} speed={90} gradient={false} pauseOnHover={true}>
                {skills
                   .filter((skill) => skill.for === "frontend")
                   .map((skill) => (
@@ -55,10 +55,10 @@ const Skills = () => {
                            alt=""
                         />
                         <div className="ml-4">
-                           <h2 className="text-xl text-[#eb10bb] mr-8 font-semibold">
+                           <h2 className="text-xl text-[#eb10bb]  font-semibold">
                               {skill.name}
                            </h2>
-                           <h2 className="text-xl text-[#10eb1f] mr-8 font-semibold">
+                           <h2 className="text-xl text-[#10eb1f]  font-semibold">
                               {skill.lavel}
                            </h2>
                         </div>
@@ -68,11 +68,11 @@ const Skills = () => {
          </div>
          <div>
             <h4 className="text-gray-400 text-center text-3xl my-5  font-semibold">
-               {"<==="} For backend {"===>"}
+               {"<---"} For backend {"--->"}
             </h4>
             <Marquee
                delay={0}
-               speed={70}
+               speed={90}
                gradient={false}
                pauseOnHover={true}
                direction={"right"}
@@ -87,10 +87,10 @@ const Skills = () => {
                            alt=""
                         />
                         <div className="ml-4">
-                           <h2 className="text-xl text-[#eb10bb] mr-8 font-semibold">
+                           <h2 className="text-xl text-[#eb10bb]  font-semibold">
                               {skill.name}
                            </h2>
-                           <h2 className="text-xl text-[#10eb1f] mr-8 font-semibold">
+                           <h2 className="text-xl text-[#10eb1f]  font-semibold">
                               {skill.lavel}
                            </h2>
                         </div>

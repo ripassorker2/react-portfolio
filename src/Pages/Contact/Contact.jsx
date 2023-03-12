@@ -37,7 +37,7 @@ const Contact = () => {
                Contact Me
             </h4>
             <h3 className="md:text-xl text-lg font-semibold mb-11 text-gray-400 text-center">
-               {"<==="} If you have any queries, Please ask me? {"===>"}
+               {"<---"} If you have any queries, Please ask me? {"--->"}
             </h3>
             <div className="relative overflow-hidden bg-no-repeat bg-cover"></div>
             <div className="container text-gray-800  ">
@@ -130,16 +130,20 @@ const Contact = () => {
                            <div className="mb-12 grow-0 shrink-0 basis-auto w-full md:w-6/12 px-3 lg:px-6">
                               <div className="flex items-start">
                                  <div className="shrink-0">
-                                    <div className="p-4 bg-[#eb10bb] hover:bg-[#10eb1f]  hover:text-gray-800  duration-300 rounded-md shadow-md w-14 h-14 flex items-center justify-center">
+                                    <a
+                                       href="https://www.linkedin.com/in/md-ripas-ali-b42a01257/"
+                                       target={"_blank"}
+                                       className="p-4 bg-[#eb10bb] hover:bg-[#10eb1f]  hover:text-gray-800  duration-300 rounded-md shadow-md w-14 h-14 flex items-center justify-center"
+                                    >
                                        <BsLinkedin className="text-white text-5xl hover:scale-x-125 duration-300" />
-                                    </div>
+                                    </a>
                                  </div>
                                  <div className="grow ml-6">
                                     <p className="font-bold mb-1 text-gray-50">
                                        Linkedin
                                     </p>
                                     <a
-                                       href="https://www.linkedin.com/in/ripas-sorkar-rifat-b42a01257/"
+                                       href="https://www.linkedin.com/in/md-ripas-ali-b42a01257/"
                                        target={"_blank"}
                                        className="text-gray-200 w-full"
                                     >
