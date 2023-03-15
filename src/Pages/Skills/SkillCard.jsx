@@ -22,7 +22,7 @@ const SkillCard = ({ skill }) => {
                text={skill.name}
                backgroundPadding={6}
                styles={buildStyles({
-                  pathColor: "#10eb1f",
+                  pathColor: "#19e126",
                   trailColor: "#eb10bb",
                   textSize: "12px",
                   textColor: "#eb10bb",

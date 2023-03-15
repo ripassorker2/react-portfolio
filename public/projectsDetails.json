@@ -1,160 +1,192 @@
 [
-  {
-    "picture1": "https://i.ibb.co/9rQrzvw/socail1.jpg",
-    "picture2": "https://i.ibb.co/HPBtc7Q/sicial2.jpg",
-    "picture3": "https://i.ibb.co/7yfGW3W/social3.jpg",
-    "picture4": "https://i.ibb.co/LPHf0Rv/social4.jpg",
-    "name": "RSR Media (Social media website)",
-    "animation": "fade-right",
-    "live": "https://social-media-e2907.web.app/",
-    "server": "https://github.com/ripassorker2/social-media-server",
-    "client": "https://github.com/ripassorker2/social-medie-client",
-    "techonology": "React, React Router, Express.js, Node.js, MongoDB, Firebase, Tailwind CSS, SCSS, Vercel, React Toolkit, RTK Query, React icons, React timeago-react, Yup, Formic, emoji-picker-react.",
-    "description": [
-      {
-        "point": "This is social media website like Facebook."
-      },
-      {
-        "point": "In this website I have implemented post system, so that any user can post easily"
-      },
-      {
-        "point": "A user can also delete or delete his post"
-      },
-      {
-        "point": "A user can give a reaction to any post, there are 6 reactions here, a user can give a reaction to any post like Facebook."
-      },
-      {
-        "point": "And a user can also comment on any user's post."
-      },
-      {
-        "point": "I have implemented a friend request system on this website, any user can send a friend request, cancel the sent request, just like Facebook."
-      },
-      {
-        "point": "Apart from this, I have provided options like updating my profile on this website, a user can add his profile photo, cover photo, name, bio, location etc."
-      },
-      {
-        "point": "I faced many problems while creating this website and I learned a lot while creating this website."
-      }
-    ]
-  },
+   {
+      "picture1": "https://i.ibb.co/w6zTz3h/teach1.png",
+      "picture2": "https://i.ibb.co/tH6hJkB/teach2.png",
+      "picture3": "https://i.ibb.co/rfdj90B/teach3.png",
+      "picture4": "https://i.ibb.co/nr8G71X/teach4.png",
+      "name": "Online Teach",
+      "type": "Front-end",
+      "animation": "fade-up-left",
+      "live": "https://online-teach-83288.web.app/",
+      "client": "https://github.com/ripassorker2/online-teach",
+      "server": "https://github.com/ripassorker2/online-teact-server",
+      "techonology": "React, React Router,Daisy UI, Firebase, Tailwind CSS,Authentication, Tailwind CSS, React to pdf, Vercel.",
+      "description": [
+         {
+            "point": "This website has some courses."
+         },
+         {
+            "point": "Here I implement firebase authentication system"
+         },
+         {
+            "point": "Courses see all users but buy for the courses a user signs in first."
+         },
+         {
+            "point": "Here I implement a pdf creator. "
+         },
+         {
+            "point": "When the download pdf button is clicked the page pdf id starts download."
+         }
+      ]
+   },
 
-  {
-    "picture1": "https://i.ibb.co/syNxVWq/book3.jpg",
-    "picture2": " https://i.ibb.co/CbTKk7N/book1.jpg",
-    "picture3": "https://i.ibb.co/znrhXzY/book2.jpg",
-    "picture4": "https://i.ibb.co/ckV1ZFB/book4.jpg",
-    "name": "Book Store (Team project)",
-    "animation": "fade-up-left",
-    "live": "https://book-store-6803e.web.app/",
-    "client": "https://github.com/ripassorker2/books-store-client",
-    "server": "https://github.com/ripassorker2/books-store-serverl",
-    "techonology": "React, React Router, Express.js, Node.js, MongoDB, Firebase, Tailwind CSS, Authentication, Vercel, Sweper js, Jwt, Dotenv, React Hooks Stripe, ,Material UI,  React Query.",
-    "description": [
-      {
-        "point": "This is Full Stack books ecommerce website and it is a team project."
-      },
-      {
-        "point": "On this website a buyer can buy a book easyly. Here we show books according to categories."
-      },
-      {
-        "point": "And in this website we implement dashboard, and three type of role there are admin seller and buyer role."
-      },
-      {
-        "point": "In this website we implement search functionality."
-      },
-      {
-        "point": "Maximum design and functionality of this website was created by me because my team member was some personal issue."
-      },
-      {
-        "point": "The parts of this website that I have worked on are design main card, design details page and implement it functionality, buyer review page, add to cart , whislist, checkout page all conditional functionality, jwt verify, user role verify, subscribe ,footer and most of the dashboard functionality."
-      }
-    ]
-  },
-  {
-    "picture1": "https://i.ibb.co/WzfxcwT/laptop1.png",
-    "picture2": "https://i.ibb.co/gyQPHNF/laptop2.png",
-    "picture3": "https://i.ibb.co/q5XrbFr/laptop3.png",
-    "picture4": "https://i.ibb.co/6cSzYFb/laptop4.png",
-    "name": "Used Laptop Resele",
-    "animation": "fade-left",
-    "live": "https://resale-laptop.web.app/",
-    "client": "https://github.com/ripassorker2/used-laptop-resell",
-    "server": "https://github.com/ripassorker2/used-laptop-resell-server",
-    "techonology": "React, React Router, Express.js, Node.js, MongoDB, Firebase, Tailwind CSS,Authentication, Vercel, React-photo-view, Stripe, Axios, React Query.",
-    "description": [
-      {
-        "point": "In this website, I created an admin role, seller role, and buyer role."
-      },
-      {
-        "point": "A seller can post a product and a buyer can buy a product."
-      },
-      {
-        "point": "Admin can see all buyers and products, and also can delete buyers or sellers.."
-      },
-      {
-        "point": "On this website I also created an advertisement system, A seller can advertise his products."
-      },
-      {
-        "point": "And I also implement a payment method using stripe."
-      }
-    ]
-  },
-  {
-    "picture1": "https://i.ibb.co/WDD2499/tourisr3.png",
-    "picture2": "https://i.ibb.co/4fmvKgy/tourist1.png",
-    "picture3": "https://i.ibb.co/C0QKyVQ/tourist2.png",
-    "picture4": "https://i.ibb.co/NYjv71W/rourist4.png",
-    "name": "Tourist service",
-    "animation": "fade-up-right",
-    "live": "https://service-review-assigment.web.app/",
-    "client": "https://github.com/ripassorker2/tourist-service",
-    "server": "https://github.com/ripassorker2/tourist-service-server",
-    "techonology": "React, React Router, Express.js, Daisy UI, Node.js, MongoDB, Firebase, Tailwind CSS,Authentication, Tailwind CSS, React-photo-view, Vercel.",
-    "description": [
-      {
-        "point": "On this website, a user can give his review."
-      },
-      {
-        "point": "To create a review a user first signs in to this site."
-      },
-      {
-        "point": "Here a user sees their review and another user's review."
-      },
-      {
-        "point": "Users can update, create and delete their reviews."
-      },
-      {
-        "point": "Here a user can post a service but first sign in this website,"
-      }
-    ]
-  },
-  {
-    "picture1": "https://i.ibb.co/w6zTz3h/teach1.png",
-    "picture2": "https://i.ibb.co/tH6hJkB/teach2.png",
-    "picture3": "https://i.ibb.co/rfdj90B/teach3.png",
-    "picture4": "https://i.ibb.co/nr8G71X/teach4.png",
-    "name": "Online Teach",
-    "animation": "fade-up-left",
-    "live": "https://online-teach-83288.web.app/",
-    "client": "https://github.com/ripassorker2/online-teach",
-    "server": "https://github.com/ripassorker2/online-teact-server",
-    "techonology": "React, React Router,Daisy UI, Firebase, Tailwind CSS,Authentication, Tailwind CSS, React to pdf, Vercel.",
-    "description": [
-      {
-        "point": "This website has some courses."
-      },
-      {
-        "point": "Here I implement firebase authentication system"
-      },
-      {
-        "point": "Courses see all users but buy for the courses a user signs in first."
-      },
-      {
-        "point": "Here I implement a pdf creator. "
-      },
-      {
-        "point": "When the download pdf button is clicked the page pdf id starts download."
-      }
-    ]
-  }
+   {
+      "picture1": "https://i.ibb.co/WzfxcwT/laptop2.png",
+      "picture2": "https://i.ibb.co/PMR4ftC/usedlap.jpg",
+      "picture3": "https://i.ibb.co/q5XrbFr/laptop3.png",
+      "picture4": "https://i.ibb.co/6cSzYFb/laptop4.png",
+      "name": "Used Laptop Resele",
+      "type": "Full-stack",
+      "animation": "fade-left",
+      "live": "https://resale-laptop.web.app/",
+      "client": "https://github.com/ripassorker2/used-laptop-resell",
+      "server": "https://github.com/ripassorker2/used-laptop-resell-server",
+      "techonology": "React, React Router, Express.js, Node.js, MongoDB, Firebase, Tailwind CSS,Authentication, Vercel, React-photo-view, Stripe, Axios, React Query.",
+      "description": [
+         {
+            "point": "In this website, I created an admin role, seller role, and buyer role."
+         },
+         {
+            "point": "A seller can post a product and a buyer can buy a product."
+         },
+         {
+            "point": "Admin can see all buyers and products, and also can delete buyers or sellers.."
+         },
+         {
+            "point": "On this website I also created an advertisement system, A seller can advertise his products."
+         },
+         {
+            "point": "And I also implement a payment method using stripe."
+         }
+      ]
+   },
+   {
+      "picture1": "https://i.ibb.co/WDD2499/tourisr3.png",
+      "picture2": "https://i.ibb.co/4fmvKgy/tourist1.png",
+      "picture3": "https://i.ibb.co/C0QKyVQ/tourist2.png",
+      "picture4": "https://i.ibb.co/NYjv71W/rourist4.png",
+      "name": "Tourist service",
+      "type": "Front-end",
+      "animation": "fade-up-right",
+      "live": "https://service-review-assigment.web.app/",
+      "client": "https://github.com/ripassorker2/tourist-service",
+      "server": "https://github.com/ripassorker2/tourist-service-server",
+      "techonology": "React, React Router, Express.js, Daisy UI, Node.js, MongoDB, Firebase, Tailwind CSS,Authentication, Tailwind CSS, React-photo-view, Vercel.",
+      "description": [
+         {
+            "point": "On this website, a user can give his review."
+         },
+         {
+            "point": "To create a review a user first signs in to this site."
+         },
+         {
+            "point": "Here a user sees their review and another user's review."
+         },
+         {
+            "point": "Users can update, create and delete their reviews."
+         },
+         {
+            "point": "Here a user can post a service but first sign in this website,"
+         }
+      ]
+   },
+
+   {
+      "picture1": "https://i.ibb.co/syNxVWq/book3.jpg",
+      "picture2": " https://i.ibb.co/CbTKk7N/book1.jpg",
+      "picture3": "https://i.ibb.co/znrhXzY/book2.jpg",
+      "picture4": "https://i.ibb.co/ckV1ZFB/book4.jpg",
+      "name": "Book Store (Team project)",
+      "type": "Full-stack",
+      "animation": "fade-up-left",
+      "live": "https://book-store-6803e.web.app/",
+      "client": "https://github.com/ripassorker2/books-store-client",
+      "server": "https://github.com/ripassorker2/books-store-serverl",
+      "techonology": "React, React Router, Express.js, Node.js, MongoDB, Firebase, Tailwind CSS, Authentication, Vercel, Sweper js, Jwt, Dotenv, React Hooks Stripe, ,Material UI,  React Query.",
+      "description": [
+         {
+            "point": "This is Full Stack books ecommerce website and it is a team project."
+         },
+         {
+            "point": "On this website a buyer can buy a book easyly. Here we show books according to categories."
+         },
+         {
+            "point": "And in this website we implement dashboard, and three type of role there are admin seller and buyer role."
+         },
+         {
+            "point": "In this website we implement search functionality."
+         },
+         {
+            "point": "Maximum design and functionality of this website was created by me because my team member was some personal issue."
+         },
+         {
+            "point": "The parts of this website that I have worked on are design main card, design details page and implement it functionality, buyer review page, add to cart , whislist, checkout page all conditional functionality, jwt verify, user role verify, subscribe ,footer and most of the dashboard functionality."
+         }
+      ]
+   },
+
+   {
+      "picture1": "https://i.ibb.co/9rQrzvw/socail1.jpg",
+      "picture2": "https://i.ibb.co/HPBtc7Q/sicial2.jpg",
+      "picture3": "https://i.ibb.co/7yfGW3W/social3.jpg",
+      "picture4": "https://i.ibb.co/LPHf0Rv/social4.jpg",
+      "name": "RSR Media (Social media website)",
+      "type": "Full-stack",
+      "animation": "fade-right",
+      "live": "https://social-media-e2907.web.app/",
+      "server": "https://github.com/ripassorker2/social-media-server",
+      "client": "https://github.com/ripassorker2/social-medie-client",
+      "techonology": "React, React Router, Express.js, Node.js, MongoDB, Firebase, Tailwind CSS, SCSS, Vercel, React Toolkit, RTK Query, React icons, React timeago-react, Yup, Formic, emoji-picker-react.",
+      "description": [
+         {
+            "point": "This is social media website like Facebook."
+         },
+         {
+            "point": "In this website I have implemented post system, so that any user can post easily"
+         },
+         {
+            "point": "A user can also delete or delete his post"
+         },
+         {
+            "point": "A user can give a reaction to any post, there are 6 reactions here, a user can give a reaction to any post like Facebook."
+         },
+         {
+            "point": "And a user can also comment on any user's post."
+         },
+         {
+            "point": "I have implemented a friend request system on this website, any user can send a friend request, cancel the sent request, just like Facebook."
+         },
+         {
+            "point": "Apart from this, I have provided options like updating my profile on this website, a user can add his profile photo, cover photo, name, bio, location etc."
+         },
+         {
+            "point": "I faced many problems while creating this website and I learned a lot while creating this website."
+         }
+      ]
+   },
+
+   {
+      "picture1": "https://i.ibb.co/1LLbVRM/crypto1.jpg",
+      "picture2": "https://i.ibb.co/MNdVvYg/crypto2.jpg",
+      "picture3": "https://i.ibb.co/mHnTVk9/crypto3.jpg",
+      "picture4": "https://i.ibb.co/GP22Zfk/crypto4.jpg",
+      "name": "Crypto mefa",
+      "type": "Front-end",
+      "animation": "fade-right",
+      "live": "https://ripassorker2.github.io/landing-page/",
+      "client": "https://github.com/ripassorker2/landing-page",
+      "server": "",
+      "techonology": "React, Tailwind CSS, Vite, Yarn and  Figma",
+      "description": [
+         {
+            "point": "This is just design,"
+         },
+         {
+            "point": "Here i don't implement any functionality!"
+         },
+         {
+            "point": "I create this website for exploring my css skills"
+         }
+      ]
+   }
 ]

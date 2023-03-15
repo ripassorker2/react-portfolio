@@ -1,7 +1,7 @@
 .shadoww {
-  border-radius: 20px;
-  box-shadow: 1px 5px 16px rgba(2, 2, 1, 0.2),
-    -10px -10px 16px rgba(0, 0, 0, 0.2),
-    inset -10px -10px 10px rgba(0, 0, 10, 0.4),
-    inset 10px 10px 10px rgba(2, 10, 0, 0.4);
+   border-radius: 20px;
+   box-shadow: 1px 5px 16px rgba(2, 2, 1, 0.2),
+      -10px -10px 16px rgba(0, 0, 0, 0.2),
+      inset -10px -10px 10px rgba(0, 0, 10, 0.4),
+      inset 10px 10px 10px rgba(2, 10, 0, 0.4);
 }

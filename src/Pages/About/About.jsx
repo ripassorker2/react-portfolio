@@ -37,7 +37,7 @@ const About = () => {
                   <a
                      href={resume}
                      download
-                     className="block text-center w-full rounded bg-[#eb10bb] px-12 py-3 font-medium text-white shadow hover:bg-[#10eb1f] duration-300 hover:text-gray-800 focus:outline-none  sm:w-auto"
+                     className="block text-center w-full rounded bg-[#eb10bb] px-12 py-3 font-medium text-white shadow hover:bg-[#19e126] duration-300 hover:text-gray-800 focus:outline-none  sm:w-auto"
                   >
                      Get Resume
                   </a>

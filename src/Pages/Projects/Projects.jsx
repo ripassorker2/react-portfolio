@@ -26,20 +26,11 @@ const Projects = () => {
          <h3 className="md:text-5xl mb-2 font-bold mt-16 text-3xl text-center text-[#eb10bb]">
             My Projects
          </h3>
-         <h3 className="font-semibold mb-11 md:text-xl text-lg text-center text-gray-400">
+         <h3 className="font-semibold mb-4 md:text-xl text-lg text-center text-gray-400">
             {"<---"} Some of the projects I have done {"--->"}
          </h3>
 
-         {/* <ProjectTab /> */}
-
-         <div
-            data-aos="fade-up"
-            className="mt-7 grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 w-[80%] md:w-[88%] mx-auto gap-14"
-         >
-            {projects?.map((project, index) => (
-               <ProjectCard key={index} project={project} />
-            ))}
-         </div>
+         <ProjectTab />
       </div>
    );
 };

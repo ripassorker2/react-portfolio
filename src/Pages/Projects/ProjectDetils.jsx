@@ -45,7 +45,7 @@ const ProjectDetils = () => {
                   Live site{" "}
                </a>
                <a
-                  className="bg-[#10eb1f] text-gray-100 border  text-sm ml-4 hover:bg-transparent hover:border duration-300 px-3 py-2 rounded-xl"
+                  className="bg-[#19e126] text-gray-100 border  text-sm ml-4 hover:bg-transparent hover:border duration-300 px-3 py-2 rounded-xl"
                   href={project?.server}
                   target=" _blank"
                >

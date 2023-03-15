@@ -36,7 +36,7 @@ const Bannar = () => {
 
                <p className="my-3 mb-8 md:text-2xl text-xl md:justify-start justify-center flex ">
                   I'm a{"  "}
-                  <span className="text-[#10eb1f] font-semibold">
+                  <span className="text-[#19e126] font-semibold">
                      <Typewriter
                         options={{
                            strings: [
@@ -55,7 +55,7 @@ const Bannar = () => {
                   <a
                      href={resume}
                      download
-                     className="block w-full rounded bg-[#eb10bb] px-12 py-3 text-b font-medium text-white shadow hover:bg-[#10eb1f] duration-300 hover:text-gray-800 focus:outline-none  sm:w-auto"
+                     className="block w-full rounded bg-[#eb10bb] px-12 py-3 text-b font-medium text-white shadow hover:bg-[#19e126] duration-300 hover:text-gray-800 focus:outline-none  sm:w-auto "
                   >
                      Get Resume
                   </a>

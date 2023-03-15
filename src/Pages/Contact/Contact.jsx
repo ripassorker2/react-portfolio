@@ -81,7 +81,7 @@ const Contact = () => {
                            <button
                               type="submit"
                               className="
-                    inline-block w-full rounded bg-[#eb10bb]  px-12 py-3 text-sm font-medium text-white shadow hover:bg-[#10eb1f] duration-300 hover:text-gray-800  focus:outline-none focus:ring active:bg-rose-500  "
+                    inline-block w-full rounded bg-[#eb10bb]  px-12 py-3 text-sm font-medium text-white shadow hover:bg-[#19e126] duration-300 hover:text-gray-800  focus:outline-none focus:ring active:bg-rose-500  "
                            >
                               Submit
                            </button>
@@ -95,7 +95,7 @@ const Contact = () => {
                            <div className="mb-12 grow-0 shrink-0 basis-auto w-full md:w-6/12 px-3 lg:px-6">
                               <div className="flex items-start">
                                  <div className="shrink-0">
-                                    <div className="p-4 bg-[#eb10bb] hover:bg-[#10eb1f]  hover:text-gray-800  duration-300  rounded-md shadow-md w-14 h-14 flex items-center justify-center">
+                                    <div className="p-4 bg-[#eb10bb] hover:bg-[#19e126]  hover:text-gray-800  duration-300  rounded-md shadow-md w-14 h-14 flex items-center justify-center">
                                        <MdEmail className="text-white text-5xl hover:scale-x-125 duration-300 " />
                                     </div>
                                  </div>
@@ -113,7 +113,7 @@ const Contact = () => {
                            <div className="mb-12 md:mb-0 grow-0 shrink-0 basis-auto w-full md:w-6/12 px-3 lg:px-6">
                               <div className="flex align-start">
                                  <div className="shrink-0">
-                                    <div className="p-4 bg-[#eb10bb] hover:bg-[#10eb1f]  hover:text-gray-800  duration-300 rounded-md shadow-md w-14 h-14 flex items-center justify-center">
+                                    <div className="p-4 bg-[#eb10bb] hover:bg-[#19e126]  hover:text-gray-800  duration-300 rounded-md shadow-md w-14 h-14 flex items-center justify-center">
                                        <BsTelephoneFill className="text-white text-5xl hover:scale-x-125 duration-300" />
                                     </div>
                                  </div>
@@ -133,7 +133,7 @@ const Contact = () => {
                                     <a
                                        href="https://www.linkedin.com/in/md-ripas-ali-b42a01257/"
                                        target={"_blank"}
-                                       className="p-4 bg-[#eb10bb] hover:bg-[#10eb1f]  hover:text-gray-800  duration-300 rounded-md shadow-md w-14 h-14 flex items-center justify-center"
+                                       className="p-4 bg-[#eb10bb] hover:bg-[#19e126]  hover:text-gray-800  duration-300 rounded-md shadow-md w-14 h-14 flex items-center justify-center"
                                     >
                                        <BsLinkedin className="text-white text-5xl hover:scale-x-125 duration-300" />
                                     </a>
@@ -155,7 +155,7 @@ const Contact = () => {
                            <div className="grow-0 shrink-0 basis-auto w-full md:w-6/12 px-3 lg:px-6">
                               <div className="flex align-start">
                                  <div className="shrink-0">
-                                    <div className="p-4 bg-[#eb10bb] hover:bg-[#10eb1f]  hover:text-gray-800  duration-300 rounded-md shadow-md w-14 h-14 flex items-center justify-center">
+                                    <div className="p-4 bg-[#eb10bb] hover:bg-[#19e126]  hover:text-gray-800  duration-300 rounded-md shadow-md w-14 h-14 flex items-center justify-center">
                                        <MdLocationOn className="text-white text-5xl hover:scale-x-125 duration-300" />
                                     </div>
                                  </div>

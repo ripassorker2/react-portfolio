@@ -58,7 +58,7 @@ const Skills = () => {
                            <h2 className="text-xl text-[#eb10bb]  font-semibold">
                               {skill.name}
                            </h2>
-                           <h2 className="text-xl text-[#10eb1f]  font-semibold">
+                           <h2 className="text-xl text-[#19e126]  font-semibold">
                               {skill.lavel}
                            </h2>
                         </div>
@@ -90,7 +90,7 @@ const Skills = () => {
                            <h2 className="text-xl text-[#eb10bb]  font-semibold">
                               {skill.name}
                            </h2>
-                           <h2 className="text-xl text-[#10eb1f]  font-semibold">
+                           <h2 className="text-xl text-[#19e126]  font-semibold">
                               {skill.lavel}
                            </h2>
                         </div>
