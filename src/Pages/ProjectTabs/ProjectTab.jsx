@@ -50,7 +50,7 @@ const ProjectTab = () => {
    return (
       <div className=" ">
          <div className="container mx-auto ">
-            <div className="flex  justify-center px-4 max-w-screen-xl m-auto ">
+            <div className="flex  justify-center ">
                <ul className="flex justify-end  space-x-2 no-underline mb-3  ">
                   <li className="-mr-5">
                      <button
@@ -65,7 +65,7 @@ const ProjectTab = () => {
                               ? "bg-[#19e126] text-gray-800"
                               : "bg-[#eb10bb]"
                         } inline-block  w-full text-white 
-                font-bold py-3 px-6 rounded duration-300`}
+                        md:font-bold font-semibold md:py-3 md:px-6 py-1.5 px-3 rounded duration-300`}
                      >
                         Full Stack
                      </button>
@@ -83,7 +83,7 @@ const ProjectTab = () => {
                               ? "bg-[#19e126] text-gray-800"
                               : "bg-[#eb10bb]"
                         } inline-block  w-full text-white 
-                font-bold py-3 px-6 rounded duration-300`}
+                        md:font-bold font-semibold md:py-3 md:px-6 py-1.5 px-3 rounded duration-300`}
                      >
                         All Project
                      </button>
@@ -101,7 +101,7 @@ const ProjectTab = () => {
                               ? "bg-[#19e126] text-gray-800"
                               : "bg-[#eb10bb]"
                         } inline-block  w-full text-white 
-                font-bold py-3 px-6 rounded duration-300`}
+                md:font-bold font-semibold md:py-3 md:px-6 py-1.5 px-3 rounded duration-300`}
                      >
                         Front-end
                      </button>
@@ -109,10 +109,10 @@ const ProjectTab = () => {
                </ul>
             </div>
          </div>
-         <div className="mt-7 w-[80%] md:w-[88%] mx-auto">
+         <div className="md:mt-7 mt-4 w-[90%]  mx-auto">
             <div
                className={` ${openTab === 1 ? "block" : "hidden "}
-                  grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1  mx-auto gap-14`}
+                  grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1  md:gap-14 gap-7`}
             >
                {pathname !== "/projects" ? (
                   <>
@@ -130,7 +130,7 @@ const ProjectTab = () => {
             </div>
             <div
                className={` ${openTab === 2 ? "block" : "hidden "}
-                  grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1  mx-auto gap-14`}
+                  grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1  md:gap-14 gap-7`}
             >
                {pathname !== "/projects" ? (
                   <>
@@ -148,7 +148,7 @@ const ProjectTab = () => {
             </div>
             <div
                className={` ${openTab === 3 ? "block" : "hidden "}
-                  grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1  mx-auto gap-14`}
+                  grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1  md:gap-14 gap-7`}
             >
                {pathname !== "/projects" ? (
                   <>

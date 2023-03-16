@@ -23,7 +23,7 @@ const Skills = () => {
    }
 
    return (
-      <div className="mt-32 " id="skill">
+      <div className="md:mt-28 mt-16 " id="skill">
          <h3 className="md:text-5xl -z-10 font-bold mt-12 mb-2 text-3xl text-center text-[#eb10bb]">
             My Skills{" "}
          </h3>
@@ -41,24 +41,24 @@ const Skills = () => {
          </div> */}
 
          <div className="">
-            <h4 className="text-gray-400 text-center text-3xl my-5 font-semibold">
+            <h4 className="text-gray-400 text-center md:text-3xl text-xl md:my-5 my-3 font-semibold">
                {"<---"} For frontend {"--->"}
             </h4>
             <Marquee delay={0} speed={90} gradient={false} pauseOnHover={true}>
                {skills
                   .filter((skill) => skill.for === "frontend")
                   .map((skill) => (
-                     <div className=" flex items-center mr-8 shadoww p-6">
+                     <div className=" flex items-center mr-8 shadoww md:p-6 p-4">
                         <img
                            src={skill?.image}
-                           className="h-20 w-20 rounded-full bg-cover"
+                           className="md:h-20 md:w-20 h-16 w-16 rounded-full bg-cover"
                            alt=""
                         />
                         <div className="ml-4">
-                           <h2 className="text-xl text-[#eb10bb]  font-semibold">
+                           <h2 className="md:text-xl text-lg text-[#eb10bb]  font-semibold">
                               {skill.name}
                            </h2>
-                           <h2 className="text-xl text-[#19e126]  font-semibold">
+                           <h2 className="md:text-xl text-lg text-[#19e126]  font-semibold">
                               {skill.lavel}
                            </h2>
                         </div>
@@ -67,7 +67,7 @@ const Skills = () => {
             </Marquee>
          </div>
          <div>
-            <h4 className="text-gray-400 text-center text-3xl my-5  font-semibold">
+            <h4 className="text-gray-400 text-center md:text-3xl text-xl md:my-5 my-3  font-semibold">
                {"<---"} For backend {"--->"}
             </h4>
             <Marquee
@@ -80,17 +80,17 @@ const Skills = () => {
                {skills
                   .filter((skill) => skill.for === "backend")
                   .map((skill) => (
-                     <div className=" flex items-center mr-8 shadoww p-6">
+                     <div className=" flex items-center mr-8 shadoww md:p-6 p-4">
                         <img
                            src={skill?.image}
-                           className="h-20 w-20 rounded-full bg-cover"
+                           className="md:h-20 md:w-20 h-16 w-16 rounded-full bg-cover"
                            alt=""
                         />
                         <div className="ml-4">
-                           <h2 className="text-xl text-[#eb10bb]  font-semibold">
+                           <h2 className="md:text-xl text-lg text-[#eb10bb]  font-semibold">
                               {skill.name}
                            </h2>
-                           <h2 className="text-xl text-[#19e126]  font-semibold">
+                           <h2 className="md:text-xl text-lg text-[#19e126]  font-semibold">
                               {skill.lavel}
                            </h2>
                         </div>

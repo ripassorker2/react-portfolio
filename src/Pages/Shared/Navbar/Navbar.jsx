@@ -6,8 +6,7 @@ const Navbar = () => {
    const [isMenuOpen, setIsMenuOpen] = useState(false);
    return (
       <div
-         className="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full 
-      md:px-8  shadow-lg shadow-gray-500 bg-[#262624] text-gray-100 "
+         className=" py-5 mx-auto w-[90%] shadow-gray-500 bg-[#262624] text-gray-100 "
          id="home"
       >
          <div className="relative flex items-center justify-between ">

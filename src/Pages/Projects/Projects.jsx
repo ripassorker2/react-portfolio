@@ -22,11 +22,11 @@ const Projects = () => {
    }
 
    return (
-      <div className="pt-20" id="project">
-         <h3 className="md:text-5xl mb-2 font-bold mt-16 text-3xl text-center text-[#eb10bb]">
+      <div id="project">
+         <h3 className="md:text-5xl mb-2 font-bold md:mt-28 mt-16 text-3xl text-center text-[#eb10bb]">
             My Projects
          </h3>
-         <h3 className="font-semibold mb-4 md:text-xl text-lg text-center text-gray-400">
+         <h3 className="font-semibold mb-4 md:text-xl text-lg text-center w-[90%]  mx-auto text-gray-400">
             {"<---"} Some of the projects I have done {"--->"}
          </h3>
 

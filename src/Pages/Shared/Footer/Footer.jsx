@@ -6,7 +6,7 @@ const Footer = () => {
    return (
       <>
          <footer
-            className="px-4 divide-y text-gray-200 mt-12 "
+            className="px-2 divide-y text-gray-200 mt-12 w-[90%] mx-auto  "
             data-aos="slide-up"
          >
             <div className="container flex flex-col justify-between py-10 mx-auto space-y-8 lg:flex-row lg:space-y-0">

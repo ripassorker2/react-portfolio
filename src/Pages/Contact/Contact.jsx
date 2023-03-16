@@ -30,7 +30,7 @@ const Contact = () => {
    return (
       <div>
          <section
-            className=" text-gray-800 pt-28 w-[80%] md:w-[92%] mx-auto "
+            className=" text-gray-800 md:pt-24 pt-16  w-[90%] mx-auto "
             id="contact"
          >
             <h4 className="md:text-5xl mb-2 text-3xl text-[#eb10bb] font-bold text-center">
@@ -42,15 +42,15 @@ const Contact = () => {
             <div className="relative overflow-hidden bg-no-repeat bg-cover"></div>
             <div className="container text-gray-800  ">
                <div className="block rounded-lg shadow-xl pb-3 ">
-                  <div className="md:flex flex-wrap">
+                  <div className="grid md:grid-cols-2">
                      <div
                         data-aos="fade-right"
-                        className="grow-0 shrink-0 basis-auto w-full xl:w-5/12  mb-12 xl:mb-0"
+                        className="grow-0 shrink-0 basis-auto w-full md:pr-3  mb-12 xl:mb-0"
                      >
                         <form
                            ref={form}
                            onSubmit={sendEmail}
-                           className="border rounded-xl border-gray-900"
+                           className=" rounded-x"
                         >
                            <div className="form-group mb-6">
                               <input
@@ -81,18 +81,15 @@ const Contact = () => {
                            <button
                               type="submit"
                               className="
-                    inline-block w-full rounded bg-[#eb10bb]  px-12 py-3 text-sm font-medium text-white shadow hover:bg-[#19e126] duration-300 hover:text-gray-800  focus:outline-none focus:ring active:bg-rose-500  "
+                    inline-block w-full rounded bg-[#eb10bb]  px-12 py-3 text-sm font-bold text-white shadow hover:bg-[#19e126] duration-300 hover:text-gray-800  focus:outline-none focus:ring active:bg-rose-500  "
                            >
                               Submit
                            </button>
                         </form>
                      </div>
-                     <div
-                        data-aos="fade-left"
-                        className="grow-0 shrink-0 basis-auto w-full xl:w-7/12"
-                     >
+                     <div data-aos="fade-left" className=" w-full md:pl-3">
                         <div className="flex flex-wrap">
-                           <div className="mb-12 grow-0 shrink-0 basis-auto w-full md:w-6/12 px-3 lg:px-6">
+                           <div className="mb-12 grow-0 shrink-0 basis-auto w-full md:w-6/12 ">
                               <div className="flex items-start">
                                  <div className="shrink-0">
                                     <div className="p-4 bg-[#eb10bb] hover:bg-[#19e126]  hover:text-gray-800  duration-300  rounded-md shadow-md w-14 h-14 flex items-center justify-center">
@@ -110,7 +107,7 @@ const Contact = () => {
                               </div>
                            </div>
 
-                           <div className="mb-12 md:mb-0 grow-0 shrink-0 basis-auto w-full md:w-6/12 px-3 lg:px-6">
+                           <div className="mb-12 md:mb-0 grow-0 shrink-0 basis-auto w-full md:w-6/12 ">
                               <div className="flex align-start">
                                  <div className="shrink-0">
                                     <div className="p-4 bg-[#eb10bb] hover:bg-[#19e126]  hover:text-gray-800  duration-300 rounded-md shadow-md w-14 h-14 flex items-center justify-center">
@@ -127,7 +124,7 @@ const Contact = () => {
                                  </div>
                               </div>
                            </div>
-                           <div className="mb-12 grow-0 shrink-0 basis-auto w-full md:w-6/12 px-3 lg:px-6">
+                           <div className="mb-12 grow-0 shrink-0 basis-auto w-full md:w-6/12 ">
                               <div className="flex items-start">
                                  <div className="shrink-0">
                                     <a
@@ -152,7 +149,7 @@ const Contact = () => {
                                  </div>
                               </div>
                            </div>
-                           <div className="grow-0 shrink-0 basis-auto w-full md:w-6/12 px-3 lg:px-6">
+                           <div className="grow-0 shrink-0 basis-auto w-full md:w-6/12 ">
                               <div className="flex align-start">
                                  <div className="shrink-0">
                                     <div className="p-4 bg-[#eb10bb] hover:bg-[#19e126]  hover:text-gray-800  duration-300 rounded-md shadow-md w-14 h-14 flex items-center justify-center">

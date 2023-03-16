@@ -6,7 +6,7 @@ import Lottie from "lottie-react";
 
 const Bannar = () => {
    return (
-      <div className="text-white  mt-32">
+      <div className="text-white md:mt-28 mt-20">
          <div className="container flex flex-col justify-center p-6 mx-auto sm:py-12 lg:flex-row lg:justify-between">
             <div
                data-aos="fade-left"
@@ -25,7 +25,7 @@ const Bannar = () => {
             </div>
             <div
                data-aos="fade-right"
-               className="flex flex-col justify-center  text-center mt-16  rounded-sm lg:max-w-lg xl:max-w-lg lg:text-left"
+               className="flex flex-col justify-center  text-center md:mt-0 mt-14  rounded-sm lg:max-w-lg xl:max-w-lg lg:text-left"
             >
                <h1 className=" font-bold leading-none md:text-5xl text-3xl">
                   <span className="text-[#eb10bb] py-1"> Hello</span>! I am{" "}
