@@ -5,10 +5,7 @@ import { Link } from "react-router-dom";
 const Footer = () => {
    return (
       <>
-         <footer
-            className="px-2 divide-y text-gray-200 mt-12 w-[90%] mx-auto  "
-            data-aos="slide-up"
-         >
+         <footer className="px-2 divide-y text-gray-200 mt-12 w-[90%] mx-auto  ">
             <div className="container flex flex-col justify-between py-10 mx-auto space-y-8 lg:flex-row lg:space-y-0">
                <div className="lg:w-1/3">
                   <Link to="/" className="inline-flex items-center">

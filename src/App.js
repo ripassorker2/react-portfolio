@@ -11,7 +11,7 @@ function App() {
       AOS.init({ duration: 1000 });
    }, []);
    return (
-      <div className="max-w-[1440px] mx-auto overflow-hidden font-serif">
+      <div className="">
          <RouterProvider router={router}></RouterProvider>
       </div>
    );

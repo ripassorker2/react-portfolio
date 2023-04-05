@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import Loader from "../../utilities/Loader";
-import SkillCard from "./SkillCard";
 import Marquee from "react-fast-marquee";
 import "../Projects/card.css";
 
