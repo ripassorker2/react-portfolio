@@ -63,7 +63,7 @@ const ProjectTab = () => {
                         className={` ${
                            active1 && !active2 === true
                               ? "bg-[#19e126] text-gray-800"
-                              : "bg-[#eb10bb]"
+                              : "bg-[#0dccf2]"
                         } inline-block  w-full text-white 
                         md:font-bold font-semibold md:py-3 md:px-6 py-1.5 px-3 rounded duration-300`}
                      >
@@ -81,7 +81,7 @@ const ProjectTab = () => {
                         className={` ${
                            !active1 && active2 === true
                               ? "bg-[#19e126] text-gray-800"
-                              : "bg-[#eb10bb]"
+                              : "bg-[#0dccf2]"
                         } inline-block  w-full text-white 
                         md:font-bold font-semibold md:py-3 md:px-6 py-1.5 px-3 rounded duration-300`}
                      >
@@ -99,7 +99,7 @@ const ProjectTab = () => {
                         className={` ${
                            !active1 && !active2 === true
                               ? "bg-[#19e126] text-gray-800"
-                              : "bg-[#eb10bb]"
+                              : "bg-[#0dccf2]"
                         } inline-block  w-full text-white 
                 md:font-bold font-semibold md:py-3 md:px-6 py-1.5 px-3 rounded duration-300`}
                      >
@@ -168,7 +168,7 @@ const ProjectTab = () => {
                <div className="flex justify-end mt-6">
                   <Link
                      to={`/projects`}
-                     className="inline-block  text-center  rounded-md bg-[#eb10bb] hover:bg-[#19e126] px-6 py-3 text-b font-semibold text-white hover:pr-9 duration-500 "
+                     className="inline-block  text-center  rounded-md bg-[#0dccf2] hover:bg-[#19e126] px-6 py-3 text-b font-semibold text-white hover:pr-9 duration-500 "
                   >
                      See all
                      <AiOutlineArrowRight className="inline-block font-semibold " />

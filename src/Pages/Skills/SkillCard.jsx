@@ -13,7 +13,7 @@ const SkillCard = ({ skill }) => {
       <>
          {/* <Marquee style={{ background: "black" }}> */}
          <div
-            className=" p-8  rounded-lg group- hover:shadow-[#eb10bb] shadoww hover:shadow-md "
+            className=" p-8  rounded-lg group- hover:shadow-[#0dccf2] shadoww hover:shadow-md "
             // data-aos={skill.animation}
          >
             <CircularProgressbarWithChildren
@@ -23,9 +23,9 @@ const SkillCard = ({ skill }) => {
                backgroundPadding={6}
                styles={buildStyles({
                   pathColor: "#19e126",
-                  trailColor: "#eb10bb",
+                  trailColor: "#0dccf2",
                   textSize: "12px",
-                  textColor: "#eb10bb",
+                  textColor: "#0dccf2",
                })}
             ></CircularProgressbarWithChildren>
          </div>

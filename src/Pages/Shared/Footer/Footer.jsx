@@ -1,18 +1,28 @@
 import React from "react";
+import Whatsapp from "../../../assets/unnamed.png";
 
 import { Link } from "react-router-dom";
 
 const Footer = () => {
    return (
       <>
-         <footer className="px-2 divide-y text-gray-200 mt-12 w-[90%] mx-auto  ">
+         <footer className="px-2 text-gray-200 mt-12 w-[90%] mx-auto  font-semibold">
+            <div className="fixed md:bottom-6 bottom-4 md:right-6 right-4 z-50">
+               <a href="https://wa.me/+8801744876681" target="_blank">
+                  <img
+                     src={Whatsapp}
+                     className="md:h-[52px] md:w-[52px] h-12 w-12 rounded-full "
+                     alt=""
+                  />
+               </a>
+            </div>
             <div className="container flex flex-col justify-between py-10 mx-auto space-y-8 lg:flex-row lg:space-y-0">
                <div className="lg:w-1/3">
                   <Link to="/" className="inline-flex items-center">
                      <span className="text-xl font-serif font-bold tracking-wide text-gray-100 uppercase">
-                        <span className="text-[#eb10bb] py-1"> Ripas </span>{" "}
+                        <span className="text-[#0dccf2] py-1"> Ripas </span>{" "}
                         Sorker{" "}
-                        <span className="text-[#eb10bb] py-1">Rifat </span>
+                        <span className="text-[#0dccf2] py-1">Rifat </span>
                      </span>
                   </Link>
                   <h3>MERN Stack Developer</h3>
@@ -26,7 +36,7 @@ const Footer = () => {
                         <li>
                            <Link
                               to="/skills"
-                              className=" text-gray-00 transition-colors duration-200 hover:text-deep-purple-accent-400 hover:text-[#eb10bb] "
+                              className=" text-gray-00 transition-colors duration-200 hover:text-deep-purple-accent-400 hover:text-[#0dccf2] "
                            >
                               Skills
                            </Link>
@@ -34,7 +44,7 @@ const Footer = () => {
                         <li>
                            <Link
                               to="/projects"
-                              className=" text-gray-00 transition-colors duration-200 hover:text-deep-purple-accent-400 hover:text-[#eb10bb] "
+                              className=" text-gray-00 transition-colors duration-200 hover:text-deep-purple-accent-400 hover:text-[#0dccf2] "
                            >
                               Projects
                            </Link>
@@ -43,7 +53,7 @@ const Footer = () => {
                         <li>
                            <Link
                               to="/about"
-                              className=" text-gray-00 transition-colors duration-200 hover:text-deep-purple-accent-400 hover:text-[#eb10bb] "
+                              className=" text-gray-00 transition-colors duration-200 hover:text-deep-purple-accent-400 hover:text-[#0dccf2] "
                            >
                               About us
                            </Link>
@@ -51,7 +61,7 @@ const Footer = () => {
                         <li>
                            <Link
                               to="/contact"
-                              className=" text-gray-00 transition-colors duration-200 hover:text-deep-purple-accent-400 hover:text-[#eb10bb] "
+                              className=" text-gray-00 transition-colors duration-200 hover:text-deep-purple-accent-400 hover:text-[#0dccf2] "
                            >
                               Contact me
                            </Link>
@@ -67,7 +77,7 @@ const Footer = () => {
                         <li>
                            <Link
                               to="/home"
-                              className=" text-gray-00 transition-colors duration-200 hover:text-deep-purple-accent-400 hover:text-[#eb10bb] "
+                              className=" text-gray-00 transition-colors duration-200 hover:text-deep-purple-accent-400 hover:text-[#0dccf2] "
                            >
                               Privacy
                            </Link>
@@ -75,7 +85,7 @@ const Footer = () => {
                         <li>
                            <Link
                               to="/home"
-                              className=" text-gray-00 transition-colors duration-200 hover:text-deep-purple-accent-400 hover:text-[#eb10bb] "
+                              className=" text-gray-00 transition-colors duration-200 hover:text-deep-purple-accent-400 hover:text-[#0dccf2] "
                            >
                               Terms of Service
                            </Link>
@@ -91,7 +101,7 @@ const Footer = () => {
                            href="https://web.facebook.com/ripassarker.rifat/"
                            type="button"
                            target=" _blank"
-                           className="rounded-full  hover:bg-[#eb10bb] bg-transparent border border-[#eb10bb] text-white leading-normal uppercase  focus:outline-none focus:ring-0 transition duration-300 ease-in-out w-9  h-9 m-1"
+                           className="rounded-full  hover:bg-[#0dccf2] bg-transparent border border-[#0dccf2] text-white leading-normal uppercase  focus:outline-none focus:ring-0 transition duration-300 ease-in-out w-9  h-9 m-1"
                         >
                            <svg
                               aria-hidden="true"
@@ -136,7 +146,7 @@ const Footer = () => {
                            href="https://myaccount.google.com/?hl=en_GB&utm_source=OGB&utm_medium=act"
                            target=" _blank"
                            type="button"
-                           className="rounded-full hover:bg-[#eb10bb] bg-transparent  border border-[#eb10bb] text-white leading-normal uppercase  focus:outline-none focus:ring-0 transition duration-300 ease-in-out w-9  h-9 m-1"
+                           className="rounded-full hover:bg-[#0dccf2] bg-transparent  border border-[#0dccf2] text-white leading-normal uppercase  focus:outline-none focus:ring-0 transition duration-300 ease-in-out w-9  h-9 m-1"
                         >
                            <svg
                               aria-hidden="true"
@@ -181,7 +191,7 @@ const Footer = () => {
                            href="https://www.linkedin.com/in/md-ripas-ali-b42a01257/"
                            target=" _blank"
                            type="button"
-                           className="rounded-full hover:bg-[#eb10bb] bg-transparent border border-[#eb10bb] text-white leading-normal uppercase  focus:outline-none focus:ring-0 transition duration-300 ease-in-out w-9 h-9 m-1"
+                           className="rounded-full hover:bg-[#0dccf2] bg-transparent border border-[#0dccf2] text-white leading-normal uppercase  focus:outline-none focus:ring-0 transition duration-300 ease-in-out w-9 h-9 m-1"
                         >
                            <svg
                               aria-hidden="true"
@@ -204,7 +214,7 @@ const Footer = () => {
                            href="https://github.com/ripassorker2"
                            target={" _blank"}
                            type="button"
-                           className="rounded-full   border hover:bg-[#eb10bb] bg-transparent border-[#eb10bb] text-white leading-normal uppercase  focus:outline-none focus:ring-0 transition duration-300 ease-in-out w-9  h-9 m-1"
+                           className="rounded-full   border hover:bg-[#0dccf2] bg-transparent border-[#0dccf2] text-white leading-normal uppercase  focus:outline-none focus:ring-0 transition duration-300 ease-in-out w-9  h-9 m-1"
                         >
                            <svg
                               aria-hidden="true"
@@ -226,7 +236,8 @@ const Footer = () => {
                   </div>
                </div>
             </div>
-            <div className="py-4 text-sm text-center dark:text-gray-400">
+
+            <div className="py-4 border-t text-sm text-center dark:text-gray-400">
                2023 Copyright. All rights reserved.
             </div>
          </footer>

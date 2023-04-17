@@ -36,7 +36,7 @@ const ProjectCard = ({ project }) => {
 
                <Link
                   to={`/project-details/${project._id}`}
-                  className="inline-block w-full text-center  rounded-md bg-[#eb10bb] hover:bg-[#19e126] px-6 py-3 text-b font-semibold text-white hover:pr-2 duration-500 "
+                  className="inline-block w-full text-center  rounded-md bg-[#0dccf2] hover:bg-[#19e126] px-6 py-3 text-b font-semibold text-white hover:pr-2 duration-500 "
                >
                   Details
                   <AiOutlineArrowRight className="inline-block font-semibold " />

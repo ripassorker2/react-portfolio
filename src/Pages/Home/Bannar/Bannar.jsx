@@ -6,19 +6,14 @@ import Lottie from "lottie-react";
 
 const Bannar = () => {
    return (
-      <div className="text-white md:mt-28 mt-20">
-         <div className="container flex flex-col justify-center p-6 mx-auto sm:py-12 lg:flex-row lg:justify-between">
+      <div className="text-white md:-mt-0 mt-20">
+         <div className="container flex flex-col justify-center p-6  mx-auto sm:py-12 lg:flex-row lg:justify-between">
             <div
                data-aos="fade-left"
-               className="flex items-center md:ml-16 justify-center p-6 mt-8 lg:mt-0 h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128"
+               className="flex items-center md:ml-16 justify-center md:p-6 md:mt-8 mt-4  "
             >
-               {/* <img
-              src="https://www.thesoftlets.com/wp-content/uploads/2022/07/mern-stack-dev.jpg"
-              alt=""
-              className="object-contain rounded-lg h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128"
-            /> */}
                <Lottie
-                  className="object-contain rounded-lg  md:w-[500px]"
+                  className="object-contain rounded-lg  md:w-[500px] w-[320px]"
                   animationData={coding}
                   loop={true}
                />
@@ -28,9 +23,9 @@ const Bannar = () => {
                className="flex flex-col justify-center  text-center md:mt-0 mt-14  rounded-sm lg:max-w-lg xl:max-w-lg lg:text-left"
             >
                <h1 className=" font-bold leading-none md:text-5xl text-3xl">
-                  <span className="text-[#eb10bb] py-1"> Hello</span>! I am{" "}
+                  <span className="text-[#0dccf2] py-1"> Hello</span>! I am{" "}
                   <br />
-                  Ripas <span className="text-[#eb10bb] py-1">Sorker </span>
+                  Ripas <span className="text-[#0dccf2] py-1">Sorker </span>
                   <span className=" py-1">Rifat</span>
                </h1>
 
@@ -55,7 +50,7 @@ const Bannar = () => {
                   <a
                      href={resume}
                      download
-                     className="block w-full rounded bg-[#eb10bb] px-12 py-3 text-b font-medium text-white shadow hover:bg-[#19e126] duration-300 hover:text-gray-800 focus:outline-none  sm:w-auto "
+                     className="inline-block w-full rounded bg-[#0dccf2] px-6 py-2.5 font-medium text-gray-800 shadow hover:bg-[#19e126] duration-500 hover:text-gray-900  focus:outline-none  sm:w-auto"
                   >
                      Get Resume
                   </a>

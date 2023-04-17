@@ -23,26 +23,14 @@ const Skills = () => {
 
    return (
       <div className="md:mt-28 mt-16 " id="skill">
-         <h3 className="md:text-5xl -z-10 font-bold mt-12 mb-2 text-3xl text-center text-[#eb10bb]">
+         <h3 className="md:text-5xl -z-10 font-bold mt-12 mb-2 text-3xl text-center text-[#0dccf2]">
             My Skills{" "}
          </h3>
-         {/* <h3 className=" -z-10 font-bold md:text-xl text-lg text-center text-gray-100">
-            Technologies that I work with
-         </h3> */}
-
-         {/* <div className="mt-7  grid lg:grid-cols-5 md:grid-cols-3 sm:grid-cols-2  items-center grid-cols-1 w-[80%] md:w-[92%] m-auto  gap-11">
-            {skills
-               ?.slice(0)
-               .reverse()
-               .map((skill, index) => (
-                  <SkillCard key={index} skill={skill} />
-               ))}
-         </div> */}
 
          <div className="">
-            <h4 className="text-gray-400 text-center md:text-3xl text-xl md:my-5 my-3 font-semibold">
-               {"<---"} For frontend {"--->"}
-            </h4>
+            <h3 className="md:text-2xl text-lg font-semibold  mb-6 text-gray-400 text-center">
+               {"<-~-"} For frontend {"-~->"}
+            </h3>
             <Marquee delay={0} speed={90} gradient={false} pauseOnHover={true}>
                {skills
                   .filter((skill) => skill.for === "frontend")
@@ -54,7 +42,7 @@ const Skills = () => {
                            alt=""
                         />
                         <div className="ml-4">
-                           <h2 className="md:text-xl text-lg text-[#eb10bb]  font-semibold">
+                           <h2 className="md:text-xl text-lg text-[#0dccf2]  font-semibold">
                               {skill.name}
                            </h2>
                            <h2 className="md:text-xl text-lg text-[#19e126]  font-semibold">
@@ -66,9 +54,10 @@ const Skills = () => {
             </Marquee>
          </div>
          <div>
-            <h4 className="text-gray-400 text-center md:text-3xl text-xl md:my-5 my-3  font-semibold">
-               {"<---"} For backend {"--->"}
-            </h4>
+            <h3 className="md:text-2xl text-lg font-semibold mb-6 mt-3 text-gray-400 text-center">
+               {"<-~-"} For backend{"-~->"}
+            </h3>
+
             <Marquee
                delay={0}
                speed={90}
@@ -86,7 +75,7 @@ const Skills = () => {
                            alt=""
                         />
                         <div className="ml-4">
-                           <h2 className="md:text-xl text-lg text-[#eb10bb]  font-semibold">
+                           <h2 className="md:text-xl text-lg text-[#0dccf2]  font-semibold">
                               {skill.name}
                            </h2>
                            <h2 className="md:text-xl text-lg text-[#19e126]  font-semibold">
