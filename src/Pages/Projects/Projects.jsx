@@ -17,10 +17,6 @@ const Projects = () => {
          });
    }, []);
 
-   if (loading) {
-      return <Loader />;
-   }
-
    return (
       <div id="project">
          <h3 className="md:text-5xl mb-2 font-bold md:mt-28 mt-16 text-3xl text-center text-[#0dccf2]">

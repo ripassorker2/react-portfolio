@@ -2,7 +2,7 @@ import React from "react";
 import { AiOutlineArrowRight } from "react-icons/ai";
 import { Link } from "react-router-dom";
 import "./card.css";
-import { BsGithub } from "react-icons/bs";
+import { BiWorld } from "react-icons/bi";
 
 const ProjectCard = ({ project }) => {
    return (
@@ -17,11 +17,11 @@ const ProjectCard = ({ project }) => {
                   />
                </figure>
                <a
-                  className="absolute top-1 right-1"
-                  href="https://github.com/ripassorker2"
+                  className="absolute top-1 right-1 z-50"
+                  href={project?.live}
                   target={"_blank"}
                >
-                  <BsGithub size={25} className="bg-slate-300 rounded-full " />
+                  <BiWorld size={25} className="bg-slate-300 rounded-full " />
                </a>
             </Link>
 
