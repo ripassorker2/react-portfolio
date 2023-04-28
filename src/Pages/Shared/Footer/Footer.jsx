@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 const Footer = () => {
    return (
       <>
-         <footer className="px-2 text-gray-200 mt-12 w-[90%] mx-auto  font-semibold">
+         <footer className="px-2 text-gray-200 mt-12 max-w-[1440px]  w-[90%] mx-auto  font-semibold">
             <div className="fixed md:bottom-6 bottom-4 md:right-6 right-4 z-50">
                <a href="https://wa.me/+8801744876681" target="_blank">
                   <img

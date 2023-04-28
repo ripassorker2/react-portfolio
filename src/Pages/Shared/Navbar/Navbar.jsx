@@ -9,7 +9,7 @@ const Navbar = () => {
          className=" py-5 w-full shadow-gray-500 bg-[#262624] text-gray-100 "
          id="home"
       >
-         <div className="relative mx-auto w-[90%] flex items-center justify-between ">
+         <div className="relative max-w-[1440px]  w-[90%] mx-auto flex items-center justify-between ">
             <Link to="/" className="inline-flex items-center">
                <span className="ml-2 text-2xl font-serif font-bold tracking-wide text-gray-100 uppercase">
                   <span className="text-[#0dccf2] py-1"> L</span> W

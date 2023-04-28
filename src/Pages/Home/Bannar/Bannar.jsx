@@ -6,7 +6,7 @@ import Lottie from "lottie-react";
 
 const Bannar = () => {
    return (
-      <div className="text-white md:-mt-0 mt-20">
+      <div className="text-white md:-mt-0 mt-20 max-w-[1440px]  w-[90%] mx-auto">
          <div className="container flex flex-col justify-center p-6  mx-auto sm:py-12 lg:flex-row lg:justify-between">
             <div
                data-aos="fade-left"

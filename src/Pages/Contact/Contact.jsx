@@ -29,7 +29,7 @@ const Contact = () => {
 
    return (
       <section
-         className=" text-gray-800 md:pt-24 pt-16  w-[90%] mx-auto "
+         className=" text-gray-800 md:pt-24 pt-16 max-w-[1440px]  w-[90%] mx-auto "
          id="contact"
       >
          <h4 className="md:text-5xl mb-2 text-3xl text-[#0dccf2] font-bold text-center">

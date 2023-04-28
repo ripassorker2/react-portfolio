@@ -109,7 +109,7 @@ const ProjectTab = () => {
                </ul>
             </div>
          </div>
-         <div className="md:mt-7 mt-4 w-[90%]  mx-auto">
+         <div className="md:mt-7 mt-4 max-w-[1440px]  w-[90%] mx-auto">
             <div
                className={` ${openTab === 1 ? "block" : "hidden "}
                   grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1  md:gap-14 gap-7`}

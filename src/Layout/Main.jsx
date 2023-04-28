@@ -9,7 +9,7 @@ const Main = () => {
          <div className="w-[100%] fixed top-0 z-50 ">
             <Navbar />
          </div>
-         <div className="max-w-[1440px] mx-auto overflow-hidden font-serif">
+         <div className=" overflow-hidden font-serif">
             <Outlet />
          </div>
 
